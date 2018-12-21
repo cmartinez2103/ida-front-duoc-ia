@@ -1,0 +1,111 @@
+<!--#include virtual="_header.shtml" -->
+<main>
+	<!---CABECERA--->
+	<section class="bg-color-postulante">
+      <div class="container">
+			<div class="userinfo">
+			   <span class="userinfo__meta">Postulante</span>
+            <h4 class="userinfo__nombre">Camila Martínez</h4>
+         	<p class="userinfo__email">correo@email.com</p>
+			</div>
+      </div>
+   </section>
+
+	<!---HORZION--->
+	<section class="horizon--dash">
+		<div class="container">
+			<p class="alert"><i class="fas fa-exclamation"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+
+			<h2 class="horizon__title horizon__title--center">¿A QUÉ LÍNEA QUIERES ASIGNAR POSTULAR?</h2>
+
+			<div class="row" data-equalize="target" data-mq="tablet-down" data-eq-target="[data-eq]">
+				<div class="gr-6 gr-6@tablet gr-12@phablet">
+					<article class="box box--access color-box-orange" data-eq>
+						<div class="box__body">
+							<h3 class="box__title"><a href="page-ventanilla-abierta.shtml" title="Ir a Ventanilla abierta">Ventana abierta</a></h3>
+							<div class="box__excerpt">
+								<p>¿Tienes un proyecto de Investigación Aplicada y busca financiamiento? revisa las bases de esta línea y postula.</p>
+							</div>
+							<div class="box__action">
+								<a href="page-dashboard-postulante-formulario.shtml" class="button" title="Ir a crear proyecto">Crear proyecto</a>
+							</div>
+						</div>
+					</article>
+				</div>
+				<div class="gr-6 gr-6@tablet gr-12@phablet">
+					<article class="box box--access color-box-blue" data-eq>
+						<div class="box__body">
+							<h3 class="box__title"><a href="page-cocurso.shtml">Consurso</a></h3>
+							<div class="box__excerpt">
+								<p>¿Te interesa solucionar problemas en el área de la salud, social o en seguridad? Postula a una de los desafíos para recibir financiamiento para tu proyecto.</p>
+							</div>
+							<div class="box__action group">
+								<a href="page-dashboard-postulante-formulario.shtml" class="button" title="Ir a crear proyecto">Crear proyecto</a>
+							</div>
+						</div>
+					</article>
+				</div>
+			</div>
+
+		</div>
+	</section>
+	<section class="horizon--home">
+		<div class="container">
+			<h2 class="horizon__title horizon__title--center">Mis proyectos</h2>
+
+			<table>
+				<thead>
+					<tr>
+						<th>Nombre del proyecto</th>
+						<th>Línea</th>
+						<th>Avance</th>
+						<th>Estado</th>
+						<th></th>
+						<th></th>
+						<th></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</td>
+						<td>Ventanilla Abierta</td>
+						<td>33,3%</td>
+						<td>Guardado</td>
+						<td class="bold"><a href="#" title="Eliminar Proyecto">Eliminar</a></td>
+						<td class="bold"><a href="page-dashboard-postulante-formulario.shtml" title="Editar Proyecto">Editar</a></td>
+						<td class="bold"><a href="page-dashboard-postulante-ficha.shtml" title="Ver Proyecto">Ver</a></td>
+					</tr>
+					<tr>
+						<td>Lorem ipsum dolor sit amet, adipisicing elit...</td>
+						<td>Concurso</td>
+						<td>33,3%</td>
+						<td>Postulado</td>
+						<td class="bold"><a href="#" title="Eliminar Proyecto">Eliminar</a></td>
+						<td class="bold"><a href="page-dashboard-postulante-formulario.shtml" title="Editar Proyecto">Editar</a></td>
+						<td class="bold"><a href="page-dashboard-postulante-ficha.shtml" title="Ver Proyecto">Ver</a></td>
+					</tr>
+					<tr>
+						<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</td>
+						<td>Ventanilla Abierta</td>
+						<td>33,3%</td>
+						<td>Guardado</td>
+						<td class="bold"><a href="#" title="Eliminar Proyecto">Eliminar</a></td>
+						<td class="bold"><a href="page-dashboard-postulante-formulario.shtml" title="Editar Proyecto">Editar</a></td>
+						<td class="bold"><a href="page-dashboard-postulante-ficha.shtml" title="Ver Proyecto">Ver</a></td>
+					</tr>
+					<tr>
+						<td>Lorem ipsum dolor sit amet, consectetur...</td>
+						<td>Ventanilla Abierta</td>
+						<td>33,3%</td>
+						<td>Evaluado</td>
+						<td class="bold"><a href="#" title="Eliminar Proyecto">Eliminar</a></td>
+						<td class="bold"><a href="page-dashboard-postulante-formulario.shtml" title="Editar Proyecto">Editar</a></td>
+						<td class="bold"><a href="page-dashboard-postulante-ficha.shtml" title="Ver Proyecto">Ver</a></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</section>
+</main>
+
+<!--#include virtual="_footer.shtml" -->

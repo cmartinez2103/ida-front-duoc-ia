@@ -1,0 +1,23 @@
+<!--#include virtual="_header.shtml" -->
+<main>
+   <section class="horizon--inner 404">
+      <div class="container">
+         <div class="row">
+            <div class="gr-7 gr-12@tablet prefix-1 prefix-0@large ">
+               <div class="horizon__intro">
+                  <h3 class="text-upper">Error 404</h3>
+                  <h1 class="horizon__title--page">PÁGINA NO ENCONTRADA</h1>
+                  <div class="horizon__excerpt">
+                     La página que estás buscando pudo haber sido eliminada, haber cambiado su nombre o se encuentra temporalmente no disponible.
+                  </div>
+                  <br>
+                  <div class="">
+                     <a href="<?php echo home_url() ?>" class="button button--input">Ir al home</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+</main>
+<!--#include virtual="_footer.shtml" -->

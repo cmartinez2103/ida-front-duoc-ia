@@ -1,0 +1,56 @@
+<!--#include virtual="_header.shtml" -->
+<main>
+	<!---CABECERA--->
+	<section class="bg-color-evaluador">
+		<div class="container">
+			<div class="userinfo">
+				<span class="userinfo__meta">Evaluador</span>
+				<h4 class="userinfo__nombre">Camila Martínez</h4>
+				<p class="userinfo__email">correo@email.com</p>
+			</div>
+		</div>
+	</section>
+
+	<!---HORZION--->
+	<section class="horizon--dash">
+		<div class="container">
+			<p class="alert"><i class="fas fa-exclamation"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+
+			<h2 class="horizon__title horizon__title--center">¿Qué quieres evaluar</h2>
+
+			<div class="row" data-equalize="target" data-mq="tablet-down" data-eq-target="[data-eq]">
+				<div class="gr-6 gr-12@tablet gr-12@small">
+					<article class="box box--access color-box-orange" data-eq>
+						<div class="box__body">
+							<h3 class="box__title"><a href="page-ventanilla-abierta.shtml" title="Ir a Ventanilla abierta">Ventana abierta</a></h3>
+							<div class="box__excerpt">
+								<p>¿Tienes un proyecto de Investigación Aplicada y busca financiamiento? revisa las bases de esta línea y postula.</p>
+							</div>
+							<div class="box__action">
+								<a href="" class="button button--border" title="Ir a Proyectos evaluados">Proyectos evaluados</a>
+								<a href="" class="button" title="Ir a evaluar">por evaluar</a>
+							</div>
+						</div>
+					</article>
+				</div>
+				<div class="gr-6 gr-12@tablet gr-12@small">
+					<article class="box box--access color-box-blue" data-eq>
+						<div class="box__body">
+							<h3 class="box__title"><a href="page-concurso.shtml" title="Ir a Concursos">Consurso</a></h3>
+							<div class="box__excerpt">
+								<p>¿Te interesa solucionar problemas en el área de la salud, social o en seguridad? Postula a una de los desafíos para recibir financiamiento para tu proyecto.</p>
+							</div>
+							<div class="box__action group">
+								<a href="" class="button button--border" title="Ir a Proyectos eveluados">Proyectos evaluados</a>
+								<a href="" class="button" title="Ir a evaluar">Por evaluar</a>
+							</div>
+						</div>
+					</article>
+				</div>
+			</div>
+
+		</div>
+	</section>
+</main>
+
+<!--#include virtual="_footer.shtml" -->

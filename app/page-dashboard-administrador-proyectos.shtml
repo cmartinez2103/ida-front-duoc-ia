@@ -1,0 +1,209 @@
+<!--#include virtual="_header.shtml" -->
+<main>
+	<!---CABECERA--->
+	<section class="bg-color-administrador">
+		<div class="container">
+			<div class="userinfo">
+				<span class="userinfo__meta">Administrador</span>
+				<h4 class="userinfo__nombre">Camila Martínez</h4>
+				<p class="userinfo__email">correo@email.com</p>
+				<a href class="link">Ir a Concursos</a>
+			</div>
+			<!-- estado de los botones: .active(blanco) y .disable (gris). por defecto verde-->
+			<div class="button__group">
+				<a href="" class="button active">1. Registro y postulación</a>
+				<a href="" class="button">2. Conceptualización</a>
+			</div>
+		</div>
+	</section>
+
+	<!---HORZION--->
+	<section class="horizon--dash">
+		<div class="container">
+			<p class="alert"><i class="fas fa-exclamation"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+
+			<h2 class="horizon__title">Ventanilla abierta</h2>
+			<!--- Filtros --->
+			<div class="horizon--filter">
+				<div class="buttons">
+					<a href="#" class="button__simple">Proyectos por evaluar <span>(20)</span></a>
+					<a href="#" class="button__simple active">Proyectos por evaluar <span>(5)</span></a>
+					<li class="button__simple button__simple--select">
+						<a href="javascript:void(0)" class="dropdown-toggle">Filtrar por escuela</a>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="#">Diseño</a>
+							</li>
+							<li>
+								<a href="#">Comunucación</a>
+							</li>
+							<li>
+								<a href="#">Economía</a>
+							</li>
+							<li>
+								<a href="#">Publicidad</a>
+							</li>
+						</ul>
+					</li>
+					<li class="button__simple button__simple--select">
+						<a href="javascript:void(0)" class="dropdown-toggle">Filtrar por nota</a>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="#">Sobre 6.0</a>
+							</li>
+							<li>
+								<a href="#">Sobre 5.0</a>
+							</li>
+							<li>
+								<a href="#">Sobre 4.0</a>
+							</li>
+							<li>
+								<a href="#">Sobre 3.0</a>
+							</li>
+							<li>
+								<a href="#">Sobre 2.0</a>
+							</li>
+						</ul>
+					</li>
+				</div>
+				<form method="get" action="/" >
+					<div class="form-control__search">
+						<input type="search" class="form-control__field" name="s" placeholder="Buscar proyecto o persona">
+						<button class="button icon-elem icon-elem--search" type="submit"></button>
+					</div>
+				</form>
+			</div>
+
+			<!-- Acciones Proyectos // Asignnar evaluadores - pasar etapa--->
+			<form action="/wp-json/asignar/evaluadores/" method="post">
+				<div class="horizon--options">
+					<h3>¿QUIERE ASIGNAR EVALUADORES O PASAR DE ETAPA?</h3>
+					<div class="form-control selector-principal">
+						<!-- Opciones de accione--->
+						<select class="form-control__field--select form-control__field" id="select_action">
+							<option value="">Seleccione una acción</option>
+							<option value="evaluadores">Asignar evaluadores</option>
+							<option value="etapa">Pasar de etapa</option>
+						</select>
+
+						<!-- Btn Pasar etapa--->
+						<div class="group-etapa">
+							<input type="submit" class="button button--main" value="Pasar de etapa">
+						</div>
+					</div>
+
+					<!-- Select asignar evaluadores--->
+					<div class="group-evaluadores">
+						<div class="group-evaluadores--inputs">
+							<select class="form-control__field--select form-control__field" name="evalaudor_1">
+								<option value="">Evuador 1</option>
+								<option value="">item 1</option>
+							</select>
+							<select class="form-control__field--select form-control__field" name="evalaudor_2">
+								<option value="">Evuador 2</option>
+								<option value="">item 1</option>
+							</select>
+							<select class="form-control__field--select form-control__field" name="evalaudor_3">
+								<option value="">Evuador 3</option>
+								<option value="">item 1</option>
+							</select>
+							<select class="form-control__field--select form-control__field" name="evalaudor_4">
+								<option value="">Evuador 4</option>
+								<option value="">item 1</option>
+							</select>
+							<select class="form-control__field--select form-control__field" name="evalaudor_5">
+								<option value="">Evuador 5</option>
+								<option value="">item 1</option>
+							</select>
+						</div>
+					</div>
+
+					<!-- Btn Asignar Evaluador--->
+					<div class="group-evaluadores">
+						<input type="submit" class="button button--main" value="Asignar">
+					</div>
+				</div>
+
+				<table class="table__resultados">
+					<thead>
+						<tr>
+							<th width="25px"><input type="checkbox" name="master" value="1"></th>
+							<th>Nombre del proyecto</th>
+							<th>Desafío</th>
+							<th>Promedio</th>
+							<th>Estado</th>
+						</tr>
+					</thead>
+
+					<tbody>
+
+						<!--- filas proyectos--->
+						<tr>
+							<td width="25px"><input type="checkbox" name="proyecto-2" value="2"></td>
+							<td class="bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</td>
+							<td>Registro y postulación</td>
+							<td>5.5</td>
+							<td>Asignado</td>
+						</tr>
+						<!--- evaluacion--->
+						<tr class="table__resultados--fila">
+							<td width="25px"></div>
+							<td colspan="4" class="result">
+								<ul>
+									<li>Notas por evaluador:</li>
+									<li>Fernando Ramirez: <strong>5.5</strong></li>
+									<li>Fernando Ramirez: <strong>5.5</strong></li>
+								</ul>
+							</td>
+						</tr>
+
+
+						<!--- filas proyectos--->
+						<tr>
+							<td width="25px"><input type="checkbox" name="proyecto-3" value="3"></td>
+							<td class="bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</td>
+							<td>Registro y postulación</td>
+							<td>6.1</td>
+							<td>Asignado</td>
+						</tr>
+						<!--- evaluacion--->
+						<tr class="table__resultados--fila">
+							<td width="25px"></div>
+							<td colspan="4" class="result">
+								<ul>
+									<li>Notas por evaluador:</li>
+									<li>Fernando Ramirez: <strong>5.5</strong></li>
+									<li>Fernando Ramirez: <strong>5.5</strong></li>
+									<li>Fernando Ramirez: <strong>5.5</strong></li>
+									<li>Fernando Ramirez: <strong>5.5</strong></li>
+									<li>Fernando Ramirez: <strong>5.5</strong></li>
+								</ul>
+							</td>
+						</tr>
+
+						<!--- filas proyectos--->
+						<tr>
+							<td width="25px"><input type="checkbox" name="proyecto-4" value="4"></td>
+							<td class="bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</td>
+							<td>Registro y postulación</td>
+							<td>-</td>
+							<td>Asignado</td>
+						</tr>
+						<!--- filas proyectos--->
+						<tr>
+							<td width="25px"><input type="checkbox" name="proyecto-5" value="5"></td>
+							<td class="bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</td>
+							<td>Registro y postulación</td>
+							<td>4.0</td>
+							<td>Asignado</td>
+						</tr>
+					</tbody>
+				</table>
+			</form>
+
+			<!--#include virtual="_paginator.shtml" -->
+		</div>
+	</section>
+</main>
+
+<!--#include virtual="_footer.shtml" -->

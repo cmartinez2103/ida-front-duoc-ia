@@ -1,0 +1,126 @@
+<!--#include virtual="_header.shtml" -->
+<main>
+	<!---CABECERA--->
+	<section class="horizon--cabecera">
+		<img src="https://picsum.photos/g/1280/360/" alt="" class="cover-img hide@tablet">
+		<img src="https://picsum.photos/g/640/460/" alt="" class="cover-img showb@tablet">
+		<div class="wrapper">
+			<h1 class="horizon__title">Resgistro evaluador</h1>
+			<div class="horizon__bajada">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+			</div>
+		</div>
+	</section>
+
+
+	<!---HORZION--->
+	<section class="horizon--inner">
+		<div class="container">
+			<div class="row">
+				<!---CONTENT--->
+				<div class="gr-8 gr-12@tablet gr-12@small reset-contenido">
+					<h2>Crear tu cuenta</h2>
+					<div class="form-parent form-parent--contacto" data-parent>
+					   <form action="#" class="row" method="POST" data-module="common-form" data-validation="generic_ajax" data-parent="[data-parent]" data-submit-class="sending" autocomplete="off">
+					      <div class="form-control gr-6 gr-12@small">
+					         <label for="contacto-nombre" class="form-control__label">Nombre completo</label>
+					         <input tabindex="1" type="text" class="form-control__field" id="registro-evaluador-nombre" name="registro-evaluador-nombre" placeholder="Ingrese su nombre completo" autocomplete="off" required data-custom-validation="onlyString" maxlength="50">
+					         <p class="form-control__text">
+					            Sólo caracteres alfabéticos
+					         </p>
+					      </div>
+					      <div class="form-control gr-6 gr-12@small">
+					         <label for="contacto-nombre" class="form-control__label">Docente</label>
+					         <select tabindex="2" class="form-control__field--select form-control__field " id="docente" name="docente" required>
+					            <option value="">Seleccione un tipo de docente</option>
+					            <option value="1">item 1</option>
+					         </select>
+					      </div>
+					      <div class="form-control gr-6 gr-12@small">
+					         <label class="form-control__label" for="sede">Sede</label>
+					         <select tabindex="3" class="form-control__field--select form-control__field " id="sede" name="sede" required>
+					            <option value="">Seleccione una sede</option>
+					            <option value="1">item 1</option>
+					         </select>
+					      </div>
+					      <div class="form-control gr-6 gr-12@small">
+					         <label class="form-control__label" for="sede">Escuela</label>
+					         <select tabindex="4" class="form-control__field--select form-control__field " id="escuela" name="escuela" required>
+					            <option value="">Seleccione una escuela</option>
+					            <option value="1">item 1</option>
+					         </select>
+					      </div>
+					      <div class="form-control gr-6 gr-12@small">
+					         <label class="form-control__label" for="rut">Rut</label>
+					         <input tabindex="5" class="form-control__field " type="text" id="rut" name="rut" placeholder="Ingresa su RUT" data-custom-validation="validRut" data-autoformat="true" required />
+					         <small class="form-control__text">Caracteres alfanuméricos. Ej: 11.111.111-k</small>
+					      </div>
+
+					      <div class="form-control gr-6 gr-12@small"></div>
+
+					      <div class="form-control gr-6 gr-12@small">
+					         <label class="form-control__label" for="email">Email</label>
+					         <input tabindex="6" class="form-control__field " type="email" id="email" name="email" value="" placeholder="Ingresa su email" required />
+					         <small class="form-control__text">Debe contener "@". Ej: mimail@mail.com</small>
+					      </div>
+					      <div class="form-control gr-6 gr-12@small">
+					         <label class="form-control__label" for="telefono">Teléfono</label>
+					         <input tabindex="7" class="form-control__field " type="text" id="telefono" name="telefono" value="" placeholder="Ingresa su número télefono" data-custom-validation="onlyNumbers" required />
+					         <small class="form-control__text">Solo caracteres numericos. Ej: 9 91234567</small>
+					      </div>
+
+					      <div class="form-control gr-6 gr-12@small">
+					         <label class="form-control__label">Contraseña</label>
+					         <input tabindex="8"  class="form-control__field" type="password" id="clave" name="clave" required placeholder="Ingresa tu contraseña">
+					          <small>Máximo 6 caracteres alfanuméricos </small>
+					      </div>
+					      <div class="form-control gr-6 gr-12@small">
+					        <label class="form-control__label" >Repita Contraseña</label>
+					        <input tabindex="9"  class="form-control__field" type="password" id="clave_repeat" name="clave-repeat" data-custom-validation="equalTo" data-sample="clave" required placeholder="Ingresa nuevamente tu contraseña">
+					        <small>Máximo 6 caracteres alfanuméricos </small>
+					      </div>
+
+					      <div class="form-control gr-12">
+					         <input tabindex="10" type="submit" class="button button--main button--input" value="Enviar">
+					      </div>
+					   </form>
+					   <!---Response-->
+					   <div class="form-response exito">
+					      <div class="form-response__respuesta">
+					         <figure class="form-response__figure"></figure>
+					         <h2 class="form-response__title">¡Tu registro se a realizado exitosamente!</h2>
+					         <p class="form-response__excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					         <a href="/" class="button button--main button--input">Volver al Inicio</a>
+					      </div>
+					   </div>
+					   <div class="form-response error">
+					      <div class="form-response__respuesta">
+					         <figure class="form-response__figure"></figure>
+					         <h2 class="form-response__title">¡Lo sentimos, tu registro no se a podido realizar!</h2>
+					         <p class="form-response__excerpt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					         <a href="/" class="button button--main button--input">Volver al Inicio</a>
+					      </div>
+					   </div>
+					</div>
+
+				</div>
+				<!---ASIDE--->
+				<aside class="gr-4 gr-12@tablet gr-12@small">
+					<div class="horizon--sub">
+						<article class="box box--access color-box-main">
+							<div class="box__body">
+								<h3 class="box__title small">¿Estás buscando financiamiento para tu proyecto de Investigación Aplicada?</h3>
+								<div class="box__action group">
+									<a href="page-concurso.shtml" class="button" title="Ir a concursos">Ir a concursos</a>
+									<a href="page-ventanilla-abierta.shtml" class="button button--border" title="Ir a Ventanilla abierta">Ir a ventanilla abierta</a>
+								</div>
+							</div>
+						</article>
+					</div>
+				</aside>
+			</div>
+		</div>
+	</section>
+</main>
+
+<!--#include virtual="_footer.shtml" -->

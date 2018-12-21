@@ -1,0 +1,63 @@
+<!-------->
+<!--Si estamos en un single el background horizon--newsletter es gris. clase: .bg-light-->
+<!-------->
+
+<footer class="footer-bar">
+	<div class="container">
+		<div class="row">
+
+			<div class="gr-3 gr-12@medium margin-bottom@medium " >
+				<figure class="footer-bar__brand" data-desktop-area="desktop-logofooter" data-mobile-area="mobile-logofooter" data-mutable="tablet-down">
+					<a href="#" title="Ir a "><img src="./dist/img/logos/logo-icono.png" alt="" class="elastic-img"></a>
+				</figure>
+				<figure class="footer-bar__brand" data-desktop-area="desktop-logofooter" data-mobile-area="mobile-logofooter" data-mutable="tablet-down">
+					<a href="#" title="Ir a "><img src="./dist/img/logos/logo-duoc-white.png" alt="" class="elastic-img"></a>
+				</figure>
+				<figure class="footer-bar__brand" data-desktop-area="desktop-logofooter" data-mobile-area="mobile-logofooter" data-mutable="tablet-down">
+					<a href="#" title="Ir a "><img src="./dist/img/logos/logo-acreditacion.png" alt="" class="elastic-img"></a>
+				</figure>
+			</div>
+
+			<div class="gr-2 gr-4@medium gr-12@small no-padding--vertical gutter@tablet footer-bar__primary">
+				<ul class="footer-list">
+					<li class="menu-item"><a href="page-investigacion-aplicada.shtml" title="Ir a" class="footer-bar__link">Investigación Aplicada</a></li>
+					<li class="menu-item"><a href="page-ventanilla-abierta.shtml" title="Ir a" class="footer-bar__link">Ventanilla Abierta</a></li>
+					<li class="menu-item"><a href="#" title="Ir a" class="footer-bar__link">Concursos</a></li>
+					<li class="menu-item"><a href="#" title="Ir a" class="footer-bar__link">Proyectos destacados</a></li>
+					<li class="menu-item"><a href="#" title="Ir a" class="footer-bar__link">Repositorio</a></li>
+					<li class="menu-item"><a href="#" title="Ir a" class="footer-bar__link">Oportunidades</a></li>
+				</ul>
+
+			</div>
+			<div class="gr-2 gr-4@medium gr-12@small no-padding--vertical gutter@tablet">
+				<ul class="footer-list">
+					<li class="menu-item"><a href="quienes-somos.shtml" title="title" class="footer-bar__link">Sobre nosotros</a></li>
+					<li class="menu-item"><a href="archivo.shtml" title="title" class="footer-bar__link">Capacitación</a></li>
+					<li class="menu-item"><a href="contacto.shtml" title="title" class="footer-bar__link">Contacto</a></li>
+				</ul>
+			</div>
+			<div class="gr-5 gr-4@medium gr-12@small no-padding--vertical gutter@tablet">
+				<h4 class="footer-bar__title">
+					<a href="#">Contacto</a>
+				</h4>
+				<ul class="footer-list">
+					<li class="footer-bar__link"><i class="icon-elem icon-elem--edit_location"></i>Antonio Varas 666, Providencia, Región Metropolitana</li>
+					<li class="footer-bar__link"><i class="icon-elem icon-elem--phone"></i>(2) 2354 0400</li>
+					<li class="footer-bar__link">Siguenos en nuestras redes sociales
+						<ul class="footer-bar__social">
+							<li><a href="" title="Ir a" class="social-link social-link--twitter"></a></li>
+							<li><a href="" title="Ir a" class="social-link social-link--facebook"></a></li>
+							<li><a href="" title="Ir a" class="social-link social-link--youtube"></a></li>
+							<li><a href="" title="Ir a" class="social-link social-link--instagram"></a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+<!--#include virtual="_indice-sitio.shtml" -->
+<script src="dist/js/main.min.js"></script>
+</body>
+
+</html>

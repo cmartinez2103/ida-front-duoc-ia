@@ -1,0 +1,52 @@
+<div class="navegacion-sitio">
+   <br>
+   <hr>
+   <br>
+   <div class="container">
+      <div class="row">
+         <div class="gr-2 gr-12@medium margin-bottom@medium">
+            <h4>Inicio</h4>
+            <a href="index.shtml">Inicio</a>
+         </div>
+         <div class="gr-2 gr-12@medium margin-bottom@medium">
+            <h4>Páginas</h4>
+            <a href="page-investigacion-aplicada.shtml">Investigacion aplicada</a>
+            <a href="page-ventanilla-abierta.shtml">Ventanilla Abierta</a>
+            <a href="page-concurso.shtml">Concuro</a>
+            <a href="page-proyectos-destacados.shtml">Proyectos destacados</a>
+            <a href="page-repositorio.shtml">Repositorio</a>
+            <a href="page-oportunidades.shtml">Oportunidades</a>
+         </div>
+         <div class="gr-2 gr-12@medium margin-bottom@medium">
+            <h4>Páginas 2º nivel</h4>
+            <a href="page.shtml">Página predeterminada</a>
+            <a href="page-sobre-nosotros.shtml">Sobre nosotros</a>
+            <a href="page-capacitacion.shtml">Capacitación</a>
+            <a href="page-contacto.shtml">Contacto</a>
+            <a href="page-registro.shtml">Registro</a>
+            <a href="page-registro-evaluador.shtml">Registro evaluador</a>
+         </div>
+         <div class="gr-2 gr-12@medium margin-bottom@medium">
+            <h4>Dashboard postulante</h4>
+            <a href="page-dashboard-postulante.shtml">Postulante</a>
+            <a href="page-dashboard-postulante-inactivo.shtml">Postulante inactivo</a>
+            <a href="page-dashboard-postulante-formulario.shtml">Postulante formulario</a>
+            <a href="page-dashboard-postulante-ficha.shtml">Postulante formulario ficha</a>
+         </div>
+         <div class="gr-2 gr-12@medium margin-bottom@medium">
+            <h4>Dashboard evaluador</h4>
+            <a href="page-dashboard-evaluador.shtml">Evaluador</a>
+            <a href="page-dashboard-evaluador-proyectos.shtml">Evaluador proyectos</a>
+            <a href="page-dashboard-evaluador-ficha.shtml">Evaluador ficha</a>
+         </div>
+         <div class="gr-2 gr-12@medium margin-bottom@medium">
+            <h4>Dashboard administrador</h4>
+            <a href="page-dashboard-administrador.shtml">Administrador</a>
+            <a href="page-dashboard-administrador-proyectos.shtml">Administrador proyectos</a>
+            <a href="page-dashboard-administrador-ficha.shtml">Administrador ficha</a>
+         </div>
+
+      </div>
+   </div>
+   <br>
+</div>

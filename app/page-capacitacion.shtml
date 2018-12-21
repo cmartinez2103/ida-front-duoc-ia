@@ -1,0 +1,133 @@
+<!--#include virtual="_header.shtml" -->
+<main>
+	<!---CABECERA--->
+	<section class="horizon--cabecera">
+		<img src="https://picsum.photos/g/1280/360/" alt="" class="cover-img hide@tablet">
+		<img src="https://picsum.photos/g/640/460/" alt="" class="cover-img showb@tablet">
+		<div class="wrapper">
+			<h1 class="horizon__title">Capacitación</h1>
+			<div class="horizon__bajada">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+			</div>
+		</div>
+	</section>
+
+	<!---HORZION--->
+	<section class="horizon--inner">
+		<div class="container">
+			<div class="row">
+				<!---CONTENT--->
+				<div class="gr-8 gr-12@tablet gr-12@small reset-contenido">
+					<div class="module__list">
+						<article class="box box--post box--list box--horizontal">
+							<figure class="box__figure">
+								<img src="./dist/img/photos/cides.png" alt="">
+							</figure>
+							<div class="box__body">
+								<h3 class="box__title">Construcción de Equipos de Trabajo</h3>
+								<a href="" class="box__link external" target="_blank" title="Ir a Visitar sitio">www.cides.cl</a>
+								<div class="box__excerpt">
+									<p>Al finalizar el curso, los participantes adquirirán habilidades sociales y comunicacionales para construir relaciones laborales basadas en la confianza y la cooperación mutua.</p>
+								</div>
+								<div class="box__action ">
+									<a href="" class="link" ttarget="_blank" title="Ir a ">Visitar sitio</a>
+								</div>
+							</div>
+						</article>
+						<article class="box box--post box--list box--horizontal">
+							<figure class="box__figure">
+								<img src="./dist/img/photos/cides.png" alt="">
+							</figure>
+							<div class="box__body">
+								<h3 class="box__title">Práctica de la presentación oral efectiva</h3>
+								<a href="" class="box__link external" target="_blank" title="Ir a Visitar sitio">www.cides.cl</a>
+								<div class="box__excerpt">
+									<p>Identificar y aplicar herramientas para mejorar las presentaciones y expresarse con eficacia, con un mensaje claro y conciso frente a sus interlocutores.</p>
+								</div>
+								<div class="box__action ">
+									<a href="" class="link" target="_blank" title="Ir a Visitar sitio">Visitar sitio</a>
+								</div>
+							</div>
+						</article>
+						<article class="box box--post box--list box--horizontal">
+							<figure class="box__figure">
+								<img src="./dist/img/photos/cides.png" alt="">
+							</figure>
+							<div class="box__body">
+								<h3 class="box__title">Metodología para el fortalecimiento de las relaciones empresas-comunidad</h3>
+								<a href="" class="box__link external" target="_blank" title="Ir a Visitar sitio">www.cides.cl</a>
+								<div class="box__excerpt">
+									<p>Este curso se propone realizar una reflexión para la acción, sobre la base de conocer y ejercitar herramientas metodológicas que facilitan la creación de nuevos formatos de relación y de trabajo conjunto, y que promueven la generación virtuosa de relaciones Empresa-Comunidad y la prevención de conflictos.</p>
+								</div>
+								<div class="box__action ">
+									<a href="" class="link" target="_blank" title="Ir a Visitar sitio">Visitar sitio</a>
+								</div>
+							</div>
+						</article>
+						<article class="box box--post box--list box--horizontal">
+							<figure class="box__figure">
+								<img src="./dist/img/photos/cides.png" alt="">
+							</figure>
+							<div class="box__body">
+								<h3 class="box__title">Construcción de Equipos de Trabajo</h3>
+								<a href="" class="box__link external" target="_blank" title="Ir a Visitar sitio">www.cides.cl</a>
+								<div class="box__excerpt">
+									<p>Al finalizar el curso, los participantes adquirirán habilidades sociales y comunicacionales para construir relaciones laborales basadas en la confianza y la cooperación mutua.</p>
+								</div>
+								<div class="box__action ">
+									<a href="" class="link" target="_blank" title="Ir a Visitar sitio">Visitar sitio</a>
+								</div>
+							</div>
+						</article>
+						<article class="box box--post box--list box--horizontal">
+							<figure class="box__figure">
+								<img src="./dist/img/photos/cides.png" alt="">
+							</figure>
+							<div class="box__body">
+								<h3 class="box__title">Capital Abeja Emprende</h3>
+								<a href="" class="box__link external" target="_blank" title="Ir a Visitar sitio">www.cides.cl</a>
+								<div class="box__excerpt">
+									<p>Es un fondo concursable de Sercotec que apoya la puesta en marcha de nuevos negocios, liderados por mujeres y con oportunidad de participar en el mercado. Cofinancia un plan de trabajo destinado a implementar un proyecto de negocio. Este plan de trabajo incluye acciones de gestión empresarial (capacitación, asistencia técnica y acciones de marketing) e inversiones en bienes necesarios para cumplir el objetivo del proyecto.</p>
+								</div>
+								<div class="box__action ">
+									<a href="" class="link" target="_blank" title="Ir a Visitar sitio">Visitar sitio</a>
+								</div>
+							</div>
+						</article>
+						<article class="box box--post box--list box--horizontal">
+							<figure class="box__figure">
+								<img src="./dist/img/photos/cides.png" alt="">
+							</figure>
+							<div class="box__body">
+								<h3 class="box__title">Capital Abeja Emprende</h3>
+								<a href="" class="box__link external" target="_blank" title="Ir a Visitar sitio">www.cides.cl</a>
+								<div class="box__excerpt">
+									<p>Es un fondo concursable de Sercotec que apoya la puesta en marcha de nuevos negocios, liderados por mujeres y con oportunidad de participar en el mercado. Cofinancia un plan de trabajo destinado a implementar un proyecto de negocio. Este plan de trabajo incluye acciones de gestión empresarial (capacitación, asistencia técnica y acciones de marketing) e inversiones en bienes necesarios para cumplir el objetivo del proyecto.</p>
+								</div>
+								<div class="box__action ">
+									<a href="" class="link" target="_blank" title="Ir a Visitar sitio">Visitar sitio</a>
+								</div>
+							</div>
+						</article>
+					</div>
+				</div>
+				<!---ASIDE--->
+				<aside class="gr-4 gr-12@tablet gr-12@small">
+					<div class="horizon--sub">
+						<article class="box box--access color-box-main">
+							<div class="box__body">
+								<h3 class="box__title small">¿Estás buscando financiamiento para tu proyecto de Investigación Aplicada?</h3>
+								<div class="box__action group">
+									<a href="page-concurso.shtml" class="button" title="Ir a concurso">Ir a concursos</a>
+									<a href="page-ventanilla-abierta.shtml" class="button button--border" title="Ir a Ventanilla abierta">Ir a ventanilla abierta</a>
+								</div>
+							</div>
+						</article>
+					</div>
+				</aside>
+			</div>
+		</div>
+	</section>
+</main>
+
+<!--#include virtual="_footer.shtml" -->

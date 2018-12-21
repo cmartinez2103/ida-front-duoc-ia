@@ -1,0 +1,117 @@
+<!--#include virtual="_header.shtml" -->
+<main>
+	<!---CABECERA--->
+	<section class="bg-color-evaluador">
+		<div class="container">
+			<div class="userinfo">
+				<span class="userinfo__meta">Evaluador</span>
+				<h4 class="userinfo__nombre">Camila Martínez</h4>
+				<p class="userinfo__email">correo@email.com</p>
+			</div>
+			<!-- estado de los botones: .active(blanco) y .disable (gris). por defecto verde-->
+			<div class="button__group">
+				<a href="" class="button active">1. Registro y postulación</a>
+				<a href="" class="button">2. Conceptualización</a>
+			</div>
+		</div>
+   </section>
+
+	<!---HORZION--->
+	<section class="horizon--dash">
+		<div class="container">
+			<p class="alert"><i class="fas fa-exclamation"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+
+			<h2 class="horizon__title">Ventanilla abierta</h2>
+			<div class="horizon--filter">
+				<div class="buttons">
+					<a href="#" class="button__simple">Proyectos por evaluar <span>(20)</span></a>
+					<a href="#" class="button__simple active">Proyectos por evaluar <span>(5)</span></a>
+					<li class="button__simple button__simple--select">
+						<a href="javascript:void(0)" class="dropdown-toggle">Filtrar por escuela</a>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="#">Diseño</a>
+							</li>
+							<li>
+								<a href="#">Comunucación</a>
+							</li>
+							<li>
+								<a href="#">Economía</a>
+							</li>
+							<li>
+								<a href="#">Publicidad</a>
+							</li>
+						</ul>
+					</li>
+					<li class="button__simple button__simple--select">
+						<a href="javascript:void(0)" class="dropdown-toggle">Filtrar por nota</a>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="#">Sobre 6.0</a>
+							</li>
+							<li>
+								<a href="#">Sobre 5.0</a>
+							</li>
+							<li>
+								<a href="#">Sobre 4.0</a>
+							</li>
+							<li>
+								<a href="#">Sobre 3.0</a>
+							</li>
+							<li>
+								<a href="#">Sobre 2.0</a>
+							</li>
+						</ul>
+					</li>
+				</div>
+				<form method="get" action="/" >
+					<div class="form-control__search">
+						<input type="search" class="form-control__field" name="s" placeholder="Buscar proyecto o persona">
+						<button class="button icon-elem icon-elem--search" type="submit"></button>
+					</div>
+				</form>
+			</div>
+
+			<table>
+				<thead>
+					<tr>
+						<th>Nombre del proyecto</th>
+						<th>Etapa</th>
+						<th>Nota</th>
+						<th></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</td>
+						<td>Registro y postulación</td>
+						<td>5.5</td>
+						<td class="bold"><a href="page-dashboard-evaluador-ficha.shtml">Ver proyecto</a></td>
+					</tr>
+					<tr>
+						<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</td>
+						<td>Registro y postulación</td>
+						<td>6.1</td>
+						<td class="bold"><a href="page-dashboard-evaluador-ficha.shtml">Ver proyecto</a></td>
+					</tr>
+					<tr>
+						<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</td>
+						<td>Registro y postulación</td>
+						<td>-</td>
+						<td class="bold"><a href="page-dashboard-evaluador-ficha.shtml">Evaluar</a></td>
+					</tr>
+					<tr>
+						<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</td>
+						<td>Registro y postulación</td>
+						<td>4.0</td>
+						<td class="bold"><a href="page-dashboard-evaluador-ficha.shtml">Ver proyecto</a></td>
+					</tr>
+				</tbody>
+			</table>
+
+				<!--#include virtual="_paginator.shtml" -->
+		</div>
+	</section>
+</main>
+
+<!--#include virtual="_footer.shtml" -->

@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Investigación aplicada - DUOC UC</title>
+	<link rel="stylesheet" href="dist/css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800|Open+Sans:400,600,700,800" rel="stylesheet">
+	<link href="https://use.typekit.net/vub1fjx.css" rel="stylesheet">
+</head>
+
+<body id="maintop">
+	<header class="header-bar">
+		<div class="top-bar">
+			<div class="container" data-area-name="desktop-top">
+				<div class="top-bar__items" data-mutable="tablet-down" data-desktop-area="desktop-top" data-mobile-area="mobile-top">
+					<ul class="top-bar__menu top-bar__menu--simple">
+						<li class="menu-item">
+							<a href="page-sobre-nosotros.html">Sobre Nosotros</a>
+						</li>
+						<li class="menu-item current-menu-item">
+							<a href="page-capacitacion.html">Capacitación</a>
+						</li>
+						<li class="menu-item">
+							<a href="page-contacto.html">Contacto</a>
+						</li>
+					</ul>
+					<ul class="top-bar__menu top-bar__menu--login">
+						<li class="menu-item">
+							<a href="tomate.html">Registro</a>
+						</li>
+						<li class="menu-item menu-item--login">
+							<button id="btn-login">Login</button>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<nav class="nav-bar" data-module="nav-bar">
+			<div class="container container--nav">
+				<div class="nav-bar__holder">
+
+					<div class="nav-bar__mobile-head">
+						<button class="nav-bar__mobile-menu" aria-label="Ver menú" data-role="nav-deployer">
+							<span></span>
+						</button>
+						<div class="nav-bar__brand">
+							<a class="app-brand app-brand--inline" title="title" href="index.html">
+								<img src="./dist/img/logos/logo.png" class="app-brand__logo" alt="Logo Investigación Aplicada" />
+							</a>
+							<a class="app-brand app-brand--inline" title="title" href="index.html">
+								<img src="./dist/img/logos/logo-duoc.png" class="app-brand__logo" alt="Logo DUOC UC" />
+							</a>
+						</div>
+					</div>
+
+					<div class="nav-bar__body" data-role="nav-body">
+						<div class="nav-bar__menu-holder">
+							<ul class="nav-bar__menu">
+								<li class="menu-item">
+									<a href="page-investigacion-aplicada.html" title="title">Investigación Aplicada</a>
+								</li>
+								<li class="menu-item current-menu-item">
+									<a href="page-ventanilla-abierta.html" title="title">Ventanilla Abierta</a>
+								</li>
+								<li class="menu-item">
+									<a href="page-concurso.html" title="title">Concursos</a>
+								</li>
+								<li class="menu-item">
+									<a href="page-proyectos-destacados.html" title="title">Proyectos destacados</a>
+								</li>
+								<li class="menu-item">
+									<a href="page-repositorio.html" title="title">Repositorio</a>
+								</li>
+								<li class="menu-item">
+									<a href="page-oportunidades.html" title="title">Oportunidades</a>
+								</li>
+							</ul>
+							<div class="mobile-top" data-area-name="mobile-top"></div>
+						</div>
+					</div>
+				</div>
+				<!---------->
+				<!--LOGIN--->
+				<!---------->
+				<div class="module__login">
+					<article class="box box--access color-box-main border-none">
+						<div class="box__body">
+							<h3 class="box__title small font-centered">Iniciar Sesión</h3>
+							<form action="/wp-login.php" method="post" class="form-simple">
+								<div class="form-control">
+									<input type="text" name="log" class="form-control__field" placeholder="Escribe tu email">
+								</div>
+								<div class="form-control">
+									<input type="password" name="pwd" class="form-control__field" placeholder="Escribe tu contraseña">
+								</div>
+								<div class="box__action">
+									<input type="text" class="button" name="wp-submit" value="Login">
+								</div>
+								<small><a href="/wp-login.php?action=lostpassword" class="link--small font-centered" title="Ir a recurperar contraseña">¿Haz olvidado tu contraseña?</a></small>
+							</form>
+						</div>
+					</article>
+				</div>
+			</div>
+			<div class="mobile-search" data-area-name="mobile-search" data-role="search-body"></div>
+		</nav>
+	</header>
+
+<main>
+	<!---CABECERA--->
+	<section class="bg-color-evaluador">
+		<div class="container">
+			<div class="userinfo">
+				<span class="userinfo__meta">Evaluador</span>
+				<h4 class="userinfo__nombre">Camila Martínez</h4>
+				<p class="userinfo__email">correo@email.com</p>
+			</div>
+			<!-- estado de los botones: .active(blanco) y .disable (gris). por defecto verde-->
+			<div class="button__group">
+				<a href="" class="button active">1. Registro y postulación</a>
+				<a href="" class="button">2. Conceptualización</a>
+			</div>
+		</div>
+	</section>
+
+	<!---HORZION--->
+	<section class="horizon--dash">
+		<div class="container">
+			<p class="alert"><i class="fas fa-exclamation"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+
+			<!--CONTENT-->
+			<div class="row horizon--innerdash">
+				<div class="gr-9 gr-12@tablet gr-12@small">
+					<div class="row module__ficha">
+						<div class="gr-12 module__ficha--title">
+							<h3 class="text-upper">Título del proyecto</h3>
+							<p class="font-size-midtall">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						</div>
+
+						<!--PRIMER GRUPO Proponente---->
+						<div class="gr-3">
+							<legend class="form-control__legend">1. Proponente</legend>
+						</div>
+						<div class="gr-9 gr-12@medium">
+							<div class="row">
+								<div class="gr-6 gr-12@medium pad-top-not">
+									<h5>Nombre completo</h5>
+									<p>José Miguel López Camus</p>
+								</div>
+								<div class="gr-6 gr-12@medium pad-top-not">
+									<h5>Docente</h5>
+									<p>Docente adjunto</p>
+								</div>
+								<div class="gr-6 gr-12@medium">
+									<h5>Sede</h5>
+									<p>Antonio Varas</p>
+								</div>
+								<div class="gr-6 gr-12@medium">
+									<h5>Escuela</h5>
+									<p>Diseño</p>
+								</div>
+								<div class="gr-6 gr-12@medium">
+									<h5>Email</h5>
+									<p>Joselópez@duoc.cl</p>
+								</div>
+								<div class="gr-6 gr-12@medium">
+									<h5>Teléfono</h5>
+									<p>974693543</p>
+								</div>
+								<div class="gr-6 gr-12@medium">
+									<h5>Nombre jefatura directa</h5>
+									<p>Irene Moya</p>
+								</div>
+								<div class="gr-6 gr-12@medium">
+									<h5>Email jefatura directa</h5>
+									<p>moya.irene@duoc.cl</p>
+								</div>
+							</div>
+						</div>
+
+						<!--SEGUNDO GRUPO EQUIPO---->
+						<div class="gr-12">
+							<legend class="form-control__legend">2. Equipo</legend>
+						</div>
+
+						<!---Docente--->
+						<div class="form-repeater">
+							<div class="row">
+								<div class="gr-3">
+									<p class="form-control__label">Equipo docente <span data-counter-uno>1</span></p>
+								</div>
+								<div class="gr-9 gr-12@medium">
+									<div class="row">
+										<div class="gr-6 gr-12@medium pad-top-not">
+											<h5>Nombre completo</h5>
+											<p>José Miguel López Camus</p>
+										</div>
+										<div class="gr-6 gr-12@medium pad-top-not">
+											<h5>Docente</h5>
+											<p>Docente adjunto</p>
+										</div>
+										<div class="gr-6 gr-12@medium">
+											<h5>Sede</h5>
+											<p>Antonio Varas</p>
+										</div>
+										<div class="gr-6 gr-12@medium">
+											<h5>Escuela</h5>
+											<p>Diseño</p>
+										</div>
+										<div class="gr-6 gr-12@medium">
+											<h5>Email</h5>
+											<p>Joselópez@duoc.cl</p>
+										</div>
+										<div class="gr-6 gr-12@medium">
+											<h5>Teléfono</h5>
+											<p>974693543</p>
+										</div>
+										<div class="gr-6 gr-12@medium">
+											<h5>Nombre jefatura directa</h5>
+											<p>Irene Moya</p>
+										</div>
+										<div class="gr-6 gr-12@medium">
+											<h5>Email jefatura directa</h5>
+											<p>moya.irene@duoc.cl</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="form-repeater">
+							<div class="row">
+								<div class="gr-3">
+									<p class="form-control__label">Equipo docente <span data-counter-uno>2</span></p>
+								</div>
+								<div class="gr-9 gr-12@medium">
+									<div class="row">
+										<div class="gr-6 gr-12@medium pad-top-not">
+											<h5>Nombre completo</h5>
+											<p>José Miguel López Camus</p>
+										</div>
+										<div class="gr-6 gr-12@medium pad-top-not">
+											<h5>Docente</h5>
+											<p>Docente adjunto</p>
+										</div>
+										<div class="gr-6 gr-12@medium">
+											<h5>Sede</h5>
+											<p>Antonio Varas</p>
+										</div>
+										<div class="gr-6 gr-12@medium">
+											<h5>Escuela</h5>
+											<p>Diseño</p>
+										</div>
+										<div class="gr-6 gr-12@medium">
+											<h5>Email</h5>
+											<p>Joselópez@duoc.cl</p>
+										</div>
+										<div class="gr-6 gr-12@medium">
+											<h5>Teléfono</h5>
+											<p>974693543</p>
+										</div>
+										<div class="gr-6 gr-12@medium">
+											<h5>Nombre jefatura directa</h5>
+											<p>Irene Moya</p>
+										</div>
+										<div class="gr-6 gr-12@medium">
+											<h5>Email jefatura directa</h5>
+											<p>moya.irene@duoc.cl</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!---estudiante--->
+						<div class="form-repeater">
+							<div class="row">
+								<div class="gr-3">
+									<p class="form-control__label">Equipo estudiante <span data-counter-dos>1</span></p>
+								</div>
+								<div class="gr-9 gr-12@medium">
+									<div class="row">
+										<div class="gr-6 gr-12@medium pad-top-not">
+											<h5>Nombre completo</h5>
+											<p>José Miguel López Camus</p>
+										</div>
+										<div class="gr-6 gr-12@medium pad-top-not">
+											<h5>Docente</h5>
+											<p>Docente adjunto</p>
+										</div>
+										<div class="gr-6 gr-12@medium">
+											<h5>Sede</h5>
+											<p>Antonio Varas</p>
+										</div>
+										<div class="gr-6 gr-12@medium">
+											<h5>Escuela</h5>
+											<p>Diseño</p>
+										</div>
+										<div class="gr-6 gr-12@medium">
+											<h5>Email</h5>
+											<p>Joselópez@duoc.cl</p>
+										</div>
+										<div class="gr-6 gr-12@medium">
+											<h5>Teléfono</h5>
+											<p>974693543</p>
+										</div>
+										<div class="gr-6 gr-12@medium">
+											<h5>Nombre jefatura directa</h5>
+											<p>Irene Moya</p>
+										</div>
+										<div class="gr-6 gr-12@medium">
+											<h5>Email jefatura directa</h5>
+											<p>moya.irene@duoc.cl</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="form-repeater">
+							<div class="row">
+								<div class="gr-3">
+									<p class="form-control__label">Equipo estudiante <span data-counter-dos>2</span></p>
+								</div>
+								<div class="gr-9 gr-12@medium">
+									<div class="row">
+										<div class="gr-6 gr-12@medium pad-top-not">
+											<h5>Nombre completo</h5>
+											<p>José Miguel López Camus</p>
+										</div>
+										<div class="gr-6 gr-12@medium pad-top-not">
+											<h5>Docente</h5>
+											<p>Docente adjunto</p>
+										</div>
+										<div class="gr-6 gr-12@medium">
+											<h5>Sede</h5>
+											<p>Antonio Varas</p>
+										</div>
+										<div class="gr-6 gr-12@medium">
+											<h5>Escuela</h5>
+											<p>Diseño</p>
+										</div>
+										<div class="gr-6 gr-12@medium">
+											<h5>Email</h5>
+											<p>Joselópez@duoc.cl</p>
+										</div>
+										<div class="gr-6 gr-12@medium">
+											<h5>Teléfono</h5>
+											<p>974693543</p>
+										</div>
+										<div class="gr-6 gr-12@medium">
+											<h5>Nombre jefatura directa</h5>
+											<p>Irene Moya</p>
+										</div>
+										<div class="gr-6 gr-12@medium">
+											<h5>Email jefatura directa</h5>
+											<p>moya.irene@duoc.cl</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!--TERCER GRUPO EQUIPO---->
+						<div class="gr-3">
+							<legend class="form-control__legend">3. Proyecto</legend>
+							<p class="font-size-mini form-control__text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration</p>
+						</div>
+						<div class="gr-9 gr-12@medium">
+							<div class="row">
+								<div class="gr-12 gr-12@medium">
+									<h5>Nombre del proyecto</h5>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+								</div>
+								<div class="gr-6 gr-12@medium">
+									<h5>Sede</h5>
+									<p>Antonio Varas</p>
+								</div>
+								<div class="gr-6 gr-12@medium">
+									<h5>Escuela</h5>
+									<p>Diseño</p>
+								</div>
+								<div class="gr-12 gr-12@medium">
+									<h5>Problema y/u oportunidad detectada</h5>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+								</div>
+								<div class="gr-12 gr-12@medium">
+									<h5>Revisión del Estado del Arte</h5>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+								</div>
+								<div class="gr-12 gr-12@medium">
+									<h5>Pregunta de Investigación-Hipótesis o supuestos de Investigación</h5>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+								</div>
+								<div class="gr-12 gr-12@medium">
+									<h5>Propuesta de solución</h5>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+								</div>
+								<div class="gr-12 gr-12@medium">
+									<h5>Resultado y beneficios esperados</h5>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+								</div>
+								<div class="gr-12 gr-12@medium">
+									<h5>Equipo Estudiantes</h5>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+								</div>
+								<div class="gr-12 gr-12@medium">
+									<h5>Equipo Docente</h5>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+								</div>
+								<div class="gr-12 gr-12@medium">
+									<div class="box__doc">
+										<h4><a href="" download>Políticas regulatorias.pdf</a></h4>
+										<span>23 MB</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="gr-12 ">
+							<form action="" class="row">
+								<div class="gr-3">
+									<legend class="form-control__legend">Evaluación</legend>
+								</div>
+								<div class="gr-9 gr-12@medium">
+									<div class="row">
+										<table class="form-control__table">
+											<thead>
+												<tr>
+													<th></th>
+													<th>Cumple</th>
+													<th>No cumple</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>
+														<label class="form-control__label" for="nombre">Posee un equipo docente <small>(33,3%)</small><i class="fas fa-question-circle" data-tooltips="Lorem ipsum dolor sit amet, consectetur adipisicing elit."></i></label>
+													</td>
+													<td class="form-control__radio">
+														<input type="radio" name="equipo-docente" value="cumple" tabindex="1">
+													</td>
+													<td class="form-control__radio">
+														<input type="radio" name="equipo-docente" value="no cumple" tabindex="2">
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<label class="form-control__label" for="nombre">Posee un equipo de alumnos <small>(33,3%)</small><i class="fas fa-question-circle" data-tooltips="Lorem ipsum dolor sit amet, consectetur adipisicing elit."></i></label>
+													</td>
+													<td class="form-control__radio">
+														<input type="radio" name="equipo-alumno" value="cumple" tabindex="3">
+													</td>
+													<td class="form-control__radio">
+														<input type="radio" name="equipo-alumno" value="no cumple" tabindex="4">
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<label class="form-control__label" for="nombre">¿Es investigación aplicada? <small>(33,3%)</small><i class="fas fa-question-circle" data-tooltips="Lorem ipsum dolor sit amet, consectetur adipisicing elit."></i></label>
+													</td>
+													<td class="form-control__radio">
+														<input type="radio" name="investigacion-aplicada" value="cumple" tabindex="5">
+													</td>
+													<td class="form-control__radio">
+														<input type="radio" name="investigacion-aplicada" value="no cumple" tabindex="6">
+													</td>
+												</tr>
+											</tbody>
+										</table>
+
+										<div class="form-control gr-4 gr-12@medium">
+											<label class="form-control__label form-control__label--select" >Relevancia y tamaño del problema <small>(33,3%)</small></label>
+											<select tabindex="7" class="form-control__field--select form-control__field"  name="consistencia-propuesta">
+												<option value="">Seleccione</option>
+												<option value="1">Muy de acuerdo</option>
+												<option value="2">De acuerdo</option>
+												<option value="3">Ni de acuerdo ni en desacuerdo</option>
+												<option value="4">En desacuerdo</option>
+												<option value="5">Muy en desacuerdo</option>
+											</select>
+										</div>
+										<div class="form-control gr-4 gr-12@medium">
+											<label class="form-control__label form-control__label--select">Grado de Innovación <small>(33,3%)</small></label>
+											<select tabindex="8" class="form-control__field--select form-control__field" name="grado-innovacion">
+												<option value="">Seleccione</option>
+												<option value="1">Muy de acuerdo</option>
+												<option value="2">De acuerdo</option>
+												<option value="3">Ni de acuerdo ni en desacuerdo</option>
+												<option value="4">En desacuerdo</option>
+												<option value="5">Muy en desacuerdo</option>
+											</select>
+										</div>
+										<div class="form-control gr-4 gr-12@medium">
+											<label class="form-control__label form-control__label--select" >Consistencia de la propuesta <small>(33,3%)</small></label>
+											<select tabindex="9" class="form-control__field--select form-control__field" name="relevancia-tamano">
+												<option value="">Seleccione</option>
+												<option value="1">Muy de acuerdo</option>
+												<option value="2">De acuerdo</option>
+												<option value="3">Ni de acuerdo ni en desacuerdo</option>
+												<option value="4">En desacuerdo</option>
+												<option value="5">Muy en desacuerdo</option>
+											</select>
+										</div>
+										<div class="form-control gr-12 gr-12@medium">
+											<label for="feedback" class="form-control__label">Feedback</label>
+								         <textarea name="feedback" rows="8" data-textcounter data-role="textcounter" maxlength="1500" class="form-control__field" placeholder="Feedback" data-autoresize tabindex="10"></textarea>
+								         <small class="form-control__text">
+								            Máximo <strong data-role="countdown">1.500</strong> carácteres
+								         </small>
+										</div>
+										<div class="form-control gr-12">
+								         <input type="submit" class="button button--main button--input" value="Evaluar" tabindex="11">
+								      </div>
+									</div>
+
+
+								</div>
+
+
+							</form>
+						</div>
+
+					</div><!--.row-->
+				</div><!--.content-->
+
+				<aside class="gr-3 gr-12@tablet gr-12@small" >
+
+				</aside>
+			</div> <!--.row .horizon innerdash-->
+
+		</div>
+	</section>
+</main>
+
+<!-------->
+<!--Si estamos en un single el background horizon--newsletter es gris. clase: .bg-light-->
+<!-------->
+
+<footer class="footer-bar">
+	<div class="container">
+		<div class="row">
+
+			<div class="gr-3 gr-12@medium margin-bottom@medium " >
+				<figure class="footer-bar__brand" data-desktop-area="desktop-logofooter" data-mobile-area="mobile-logofooter" data-mutable="tablet-down">
+					<a href="#" title="Ir a "><img src="./dist/img/logos/logo-icono.png" alt="" class="elastic-img"></a>
+				</figure>
+				<figure class="footer-bar__brand" data-desktop-area="desktop-logofooter" data-mobile-area="mobile-logofooter" data-mutable="tablet-down">
+					<a href="#" title="Ir a "><img src="./dist/img/logos/logo-duoc-white.png" alt="" class="elastic-img"></a>
+				</figure>
+				<figure class="footer-bar__brand" data-desktop-area="desktop-logofooter" data-mobile-area="mobile-logofooter" data-mutable="tablet-down">
+					<a href="#" title="Ir a "><img src="./dist/img/logos/logo-acreditacion.png" alt="" class="elastic-img"></a>
+				</figure>
+			</div>
+
+			<div class="gr-2 gr-4@medium gr-12@small no-padding--vertical gutter@tablet footer-bar__primary">
+				<ul class="footer-list">
+					<li class="menu-item"><a href="page-investigacion-aplicada.html" title="Ir a" class="footer-bar__link">Investigación Aplicada</a></li>
+					<li class="menu-item"><a href="page-ventanilla-abierta.html" title="Ir a" class="footer-bar__link">Ventanilla Abierta</a></li>
+					<li class="menu-item"><a href="#" title="Ir a" class="footer-bar__link">Concursos</a></li>
+					<li class="menu-item"><a href="#" title="Ir a" class="footer-bar__link">Proyectos destacados</a></li>
+					<li class="menu-item"><a href="#" title="Ir a" class="footer-bar__link">Repositorio</a></li>
+					<li class="menu-item"><a href="#" title="Ir a" class="footer-bar__link">Oportunidades</a></li>
+				</ul>
+
+			</div>
+			<div class="gr-2 gr-4@medium gr-12@small no-padding--vertical gutter@tablet">
+				<ul class="footer-list">
+					<li class="menu-item"><a href="quienes-somos.html" title="title" class="footer-bar__link">Sobre nosotros</a></li>
+					<li class="menu-item"><a href="archivo.html" title="title" class="footer-bar__link">Capacitación</a></li>
+					<li class="menu-item"><a href="contacto.html" title="title" class="footer-bar__link">Contacto</a></li>
+				</ul>
+			</div>
+			<div class="gr-5 gr-4@medium gr-12@small no-padding--vertical gutter@tablet">
+				<h4 class="footer-bar__title">
+					<a href="#">Contacto</a>
+				</h4>
+				<ul class="footer-list">
+					<li class="footer-bar__link"><i class="icon-elem icon-elem--edit_location"></i>Antonio Varas 666, Providencia, Región Metropolitana</li>
+					<li class="footer-bar__link"><i class="icon-elem icon-elem--phone"></i>(2) 2354 0400</li>
+					<li class="footer-bar__link">Siguenos en nuestras redes sociales
+						<ul class="footer-bar__social">
+							<li><a href="" title="Ir a" class="social-link social-link--twitter"></a></li>
+							<li><a href="" title="Ir a" class="social-link social-link--facebook"></a></li>
+							<li><a href="" title="Ir a" class="social-link social-link--youtube"></a></li>
+							<li><a href="" title="Ir a" class="social-link social-link--instagram"></a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+<div class="navegacion-sitio">
+   <br>
+   <hr>
+   <br>
+   <div class="container">
+      <div class="row">
+         <div class="gr-2 gr-12@medium margin-bottom@medium">
+            <h4>Inicio</h4>
+            <a href="index.html">Inicio</a>
+         </div>
+         <div class="gr-2 gr-12@medium margin-bottom@medium">
+            <h4>Páginas</h4>
+            <a href="page-investigacion-aplicada.html">Investigacion aplicada</a>
+            <a href="page-ventanilla-abierta.html">Ventanilla Abierta</a>
+            <a href="page-concurso.html">Concuro</a>
+            <a href="page-proyectos-destacados.html">Proyectos destacados</a>
+            <a href="page-repositorio.html">Repositorio</a>
+            <a href="page-oportunidades.html">Oportunidades</a>
+         </div>
+         <div class="gr-2 gr-12@medium margin-bottom@medium">
+            <h4>Páginas 2º nivel</h4>
+            <a href="page.html">Página predeterminada</a>
+            <a href="page-sobre-nosotros.html">Sobre nosotros</a>
+            <a href="page-capacitacion.html">Capacitación</a>
+            <a href="page-contacto.html">Contacto</a>
+            <a href="page-registro.html">Registro</a>
+            <a href="page-registro-evaluador.html">Registro evaluador</a>
+         </div>
+         <div class="gr-2 gr-12@medium margin-bottom@medium">
+            <h4>Dashboard postulante</h4>
+            <a href="page-dashboard-postulante.html">Postulante</a>
+            <a href="page-dashboard-postulante-inactivo.html">Postulante inactivo</a>
+            <a href="page-dashboard-postulante-formulario.html">Postulante formulario</a>
+            <a href="page-dashboard-postulante-ficha.html">Postulante formulario ficha</a>
+         </div>
+         <div class="gr-2 gr-12@medium margin-bottom@medium">
+            <h4>Dashboard evaluador</h4>
+            <a href="page-dashboard-evaluador.html">Evaluador</a>
+            <a href="page-dashboard-evaluador-proyectos.html">Evaluador proyectos</a>
+            <a href="page-dashboard-evaluador-ficha.html">Evaluador ficha</a>
+         </div>
+         <div class="gr-2 gr-12@medium margin-bottom@medium">
+            <h4>Dashboard administrador</h4>
+            <a href="page-dashboard-administrador.html">Administrador</a>
+            <a href="page-dashboard-administrador-proyectos.html">Administrador proyectos</a>
+            <a href="page-dashboard-administrador-ficha.html">Administrador ficha</a>
+         </div>
+
+      </div>
+   </div>
+   <br>
+</div>
+
+<script src="dist/js/main.min.js"></script>
+</body>
+
+</html>
+

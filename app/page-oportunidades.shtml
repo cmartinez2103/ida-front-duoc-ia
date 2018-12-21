@@ -1,0 +1,134 @@
+<!--#include virtual="_header.shtml" -->
+<main>
+	<!---CABECERA--->
+	<section class="horizon--cabecera">
+		<img src="https://picsum.photos/g/1280/360/" alt="" class="cover-img hide@tablet">
+		<img src="https://picsum.photos/g/640/460/" alt="" class="cover-img showb@tablet">
+		<div class="wrapper">
+			<h1 class="horizon__title">Oportunidades</h1>
+			<div class="horizon__bajada">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+			</div>
+		</div>
+	</section>
+
+
+	<!---HORZION--->
+	<section class="horizon--inner">
+		<div class="container">
+			<div class="row">
+				<!---CONTENT--->
+				<div class="gr-8 gr-12@tablet gr-12@small reset-contenido">
+					<div class="module__list">
+						<article class="box box--post box--list box--horizontal">
+							<figure class="box__figure">
+								<img src="./dist/img/photos/sercotec.png" alt="">
+							</figure>
+							<div class="box__body">
+								<h3 class="box__title">Capital Abeja Emprende</h3>
+								<a href="#" class="box__link external" target="_blank" title="Ir a Visitar sitio">www.sercotec.cl</a>
+								<div class="box__excerpt">
+									<p>Es un fondo concursable de Sercotec que apoya la puesta en marcha de nuevos negocios, liderados por mujeres y con oportunidad de participar en el mercado. Cofinancia un plan de trabajo destinado a implementar un proyecto de negocio. Este plan de trabajo incluye acciones de gestión empresarial (capacitación, asistencia técnica y acciones de marketing) e inversiones en bienes necesarios para cumplir el objetivo del proyecto.</p>
+								</div>
+								<div class="box__action ">
+									<a href="#" class="link" target="_blank" title="Ir a Visitar sitio">Visitar sitio</a>
+								</div>
+							</div>
+						</article>
+						<article class="box box--post box--list box--horizontal">
+							<figure class="box__figure">
+								<img src="./dist/img/photos/corfo.png" alt="">
+							</figure>
+							<div class="box__body">
+								<h3 class="box__title">olimpiadas semilla corfo</h3>
+								<a href="#" class="box__link external" target="_blank" title="Ir a Visitar sitio">www.corfo.cl</a>
+								<div class="box__excerpt">
+									<p>¿Quieres potenciar un negocio que detecta una oportunidad y es diferenciador en el mercado?, infórmate más de Semilla Corfo. Apoyamos emprendimientos dinámicos, lo que significa que en 3 años puedan alcanzar ventas por un monto igual o superior $1.000.000 de dólares y que tengan la capacidad de crecer y aumentar sus ingresos al doble cada 3 o 4 años. ¡Recuerda!. Para participar tu proyecto debe tener, por lo menos, un primer análisis de mercado, cuál es la solución que van a implementar y un equipo de trabajo listo.</p>
+								</div>
+								<div class="box__action ">
+									<a href="#" class="link" target="_blank" title="Ir a Visitar sitio">Visitar sitio</a>
+								</div>
+							</div>
+						</article>
+						<article class="box box--post box--list box--horizontal">
+							<figure class="box__figure">
+								<img src="./dist/img/photos/sercotec.png" alt="">
+							</figure>
+							<div class="box__body">
+								<h3 class="box__title">Capital Abeja Emprende</h3>
+								<a href="#" class="box__link external" target="_blank" title="Ir a Visitar sitio">www.sercotec.cl</a>
+								<div class="box__excerpt">
+									<p>Es un fondo concursable de Sercotec que apoya la puesta en marcha de nuevos negocios, liderados por mujeres y con oportunidad de participar en el mercado. Cofinancia un plan de trabajo destinado a implementar un proyecto de negocio. Este plan de trabajo incluye acciones de gestión empresarial (capacitación, asistencia técnica y acciones de marketing) e inversiones en bienes necesarios para cumplir el objetivo del proyecto.</p>
+								</div>
+								<div class="box__action ">
+									<a href="#" class="link" target="_blank" title="Ir a Visitar sitio">Visitar sitio</a>
+								</div>
+							</div>
+						</article>
+						<article class="box box--post box--list box--horizontal">
+							<figure class="box__figure">
+								<img src="./dist/img/photos/sercotec.png" alt="">
+							</figure>
+							<div class="box__body">
+								<h3 class="box__title">Capital Abeja Emprende</h3>
+								<a href="#" class="box__link external" target="_blank" title="Ir a Visitar sitio">www.sercotec.cl</a>
+								<div class="box__excerpt">
+									<p>Es un fondo concursable de Sercotec que apoya la puesta en marcha de nuevos negocios, liderados por mujeres y con oportunidad de participar en el mercado. Cofinancia un plan de trabajo destinado a implementar un proyecto de negocio. Este plan de trabajo incluye acciones de gestión empresarial (capacitación, asistencia técnica y acciones de marketing) e inversiones en bienes necesarios para cumplir el objetivo del proyecto.</p>
+								</div>
+								<div class="box__action ">
+									<a href="#" class="link" target="_blank" title="Ir a Visitar sitio">Visitar sitio</a>
+								</div>
+							</div>
+						</article>
+						<article class="box box--post box--list box--horizontal">
+							<figure class="box__figure">
+								<img src="./dist/img/photos/sercotec.png" alt="">
+							</figure>
+							<div class="box__body">
+								<h3 class="box__title">Capital Abeja Emprende</h3>
+								<a href="#" class="box__link external" target="_blank" title="Ir a Visitar sitio">www.sercotec.cl</a>
+								<div class="box__excerpt">
+									<p>Es un fondo concursable de Sercotec que apoya la puesta en marcha de nuevos negocios, liderados por mujeres y con oportunidad de participar en el mercado. Cofinancia un plan de trabajo destinado a implementar un proyecto de negocio. Este plan de trabajo incluye acciones de gestión empresarial (capacitación, asistencia técnica y acciones de marketing) e inversiones en bienes necesarios para cumplir el objetivo del proyecto.</p>
+								</div>
+								<div class="box__action ">
+									<a href="#" class="link" target="_blank" title="Ir a Visitar sitio">Visitar sitio</a>
+								</div>
+							</div>
+						</article>
+						<article class="box box--post box--list box--horizontal">
+							<figure class="box__figure">
+								<img src="./dist/img/photos/sercotec.png" alt="">
+							</figure>
+							<div class="box__body">
+								<h3 class="box__title">Capital Abeja Emprende</h3>
+								<a href="#" class="box__link external" target="_blank" title="Ir a Visitar sitio">www.sercotec.cl</a>
+								<div class="box__excerpt">
+									<p>Es un fondo concursable de Sercotec que apoya la puesta en marcha de nuevos negocios, liderados por mujeres y con oportunidad de participar en el mercado. Cofinancia un plan de trabajo destinado a implementar un proyecto de negocio. Este plan de trabajo incluye acciones de gestión empresarial (capacitación, asistencia técnica y acciones de marketing) e inversiones en bienes necesarios para cumplir el objetivo del proyecto.</p>
+								</div>
+								<div class="box__action ">
+									<a href="#" class="link" target="_blank" title="Ir a Visitar sitio">Visitar sitio</a>
+								</div>
+							</div>
+						</article>
+					</div>
+				</div>
+				<!---ASIDE--->
+				<aside class="gr-4 gr-12@tablet gr-12@small">
+					<div class="horizon--sub">
+						<article class="box box--access color-box-main">
+							<div class="box__body">
+								<h3 class="box__title small">¿Estás buscando financiamiento para tu proyecto de Investigación Aplicada?</h3>
+								<div class="box__action group">
+									<a href="page-consurso.shtml" class="button" title="Ir a concursos">Ir a concursos</a>
+									<a href="page-ventanilla-abierta.shtml" class="button button--border" title="Ir a Ventanilla abierta">Ir a ventanilla abierta</a>
+								</div>
+							</div>
+						</article>
+					</div>
+				</aside>
+			</div>
+		</div>
+	</section>
+</main>
+
+<!--#include virtual="_footer.shtml" -->

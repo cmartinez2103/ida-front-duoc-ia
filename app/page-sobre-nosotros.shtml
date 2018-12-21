@@ -1,0 +1,54 @@
+<!--#include virtual="_header.shtml" -->
+<main>
+	<!---CABECERA--->
+	<section class="horizon--cabecera">
+		<img src="https://picsum.photos/g/1280/360/" alt="" class="cover-img hide@tablet">
+		<img src="https://picsum.photos/g/640/460/" alt="" class="cover-img showb@tablet">
+		<div class="wrapper">
+			<h1 class="horizon__title">Sobre Nosotros</h1>
+			<div class="horizon__bajada">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+			</div>
+		</div>
+	</section>
+
+
+	<!---HORZION--->
+	<section class="horizon--inner">
+		<div class="container">
+			<div class="row">
+				<!---CONTENT--->
+				<div class="gr-8 gr-12@tablet gr-12@small reset-contenido">
+					<h2>Quienes Somos</h2>
+					<p>Duoc UC es una Institución Católica de Educación Superior que, participando a la misión evangelizadora de la Iglesia, está al servicio del desarrollo de la sociedad por medio de la formación de personas, técnicos y profesionales, capaces de desplegar un proyecto de vida integral con una impronta ético-cristiana. Su quehacer se funda en un proyecto original, autónomo y genuino, que se enmarca en la tradición formativa de la Iglesia Católica. Destaca a la persona por sobre la mera formación para el trabajo y la sitúa en su condición trascendente y continuadora de la obra creadora de Dios. El horizonte de nuestro proyecto educativo, en efecto, es el desarrollo humano integral y el bien común de la sociedad.</p>
+					<p>La Institución procura la inclusión, brindando a todos quienes lo requieran, oportunidades de desarrollo de sus capacidades por mediación de un proceso de formación que busca el desarrollo humano integral, con foco en el ámbito del trabajo como espacio de despliegue de sus proyectos personales.</p>
+
+					<h2>Organigrama</h2>
+					<img src="./dist/img/photos/organigrama.png" alt="">
+
+					<h2>Misión y visión</h2>
+					<p>Duoc UC es una Institución Católica de Educación Superior que, participando a la misión evangelizadora de la Iglesia, está al servicio del desarrollo de la sociedad por medio de la formación de personas, técnicos y profesionales, capaces de desplegar un proyecto de vida integral con una impronta ético-cristiana. Su quehacer se funda en un proyecto original, autónomo y genuino, que se enmarca en la tradición formativa de la Iglesia Católica. Destaca a la persona por sobre la mera formación para el trabajo y la sitúa en su condición trascendente y continuadora de la obra creadora de Dios. El horizonte de nuestro proyecto educativo, en efecto, es el desarrollo humano integral y el bien común de la sociedad.</p>
+
+					<p>La Institución procura la inclusión, brindando a todos quienes lo requieran, oportunidades de desarrollo de sus capacidades por mediación de un proceso de formación que busca el desarrollo humano integral, con foco en el ámbito del trabajo como espacio de despliegue de sus proyectos personales.</p>
+
+				</div>
+				<!---ASIDE--->
+				<aside class="gr-4 gr-12@tablet gr-12@small">
+					<div class="horizon--sub">
+						<article class="box box--access color-box-main">
+							<div class="box__body">
+								<h3 class="box__title small">¿Estás buscando financiamiento para tu proyecto de Investigación Aplicada?</h3>
+								<div class="box__action group">
+									<a href="page-consurso.shtml" class="button" title="Ir a concursos">Ir a concursos</a>
+									<a href="page-ventanilla-abierta.shtml" class="button button--border" title="Ir a ventanilla abierta">Ir a ventanilla abierta</a>
+								</div>
+							</div>
+						</article>
+					</div>
+				</aside>
+			</div>
+		</div>
+	</section>
+</main>
+
+<!--#include virtual="_footer.shtml" -->

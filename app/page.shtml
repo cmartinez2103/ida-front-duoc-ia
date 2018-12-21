@@ -1,0 +1,104 @@
+<!--#include virtual="_header.shtml" -->
+<main >
+   <!---CABECERA--->
+	<section class="horizon--cabecera">
+		<img src="https://picsum.photos/g/1280/360/" alt="" class="cover-img hide@tablet">
+		<img src="https://picsum.photos/g/640/460/" alt="" class="cover-img showb@tablet">
+		<div class="wrapper">
+			<h1 class="horizon__title">Pagína predeterminada</h1>
+			<div class="horizon__bajada">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+			</div>
+		</div>
+	</section>
+
+   <!---HORZION--->
+	<section class="horizon--inner">
+		<div class="container">
+			<div class="row">
+				<!---CONTENT--->
+				<div class="gr-8 gr-6@tablet gr-12@phablet reset-contenido">
+               <h2>Titulo h2</h2>
+               <p>La vida moderna y el desarrollo de la civilización nos someten a exigencias desconocidas para nuestros antepasados, como el aprendizaje de
+                  la lectura, de la computación y el manejo del estrés social. Debemos adaptarnos constantemente a estas nuevas contingencias en una carrera donde cada
+                  generación se enfrenta a nuevos desafíos cognitivos y emocionales. Por ejemplo, la dislexia no existía antes del desarrollo de la lectoescritura,
+                  y algunos proponen que, condiciones como el trastorno por déficit atencional e hiperactividad y el autismo se han hecho más prevalentes con el
+                  desarrollo de la vida moderna. De hecho, la otra cara del aumento del bienestar físico que gozamos es que la salud mental, desde los trastornos del
+                  aprendizaje a la depresión y otras condiciones, se pronostica como uno de los mayores problemas sanitarios del futuro. </p>
+               <p>En este contexto, se ha puesto de moda el término “Neurociencia”, que involucra el estudio del cerebro humano y las
+                  posibles aplicaciones de este conocimiento a la vida humana. Si bien esta disciplina tiene un origen científico y se han
+                  generado avances notables en esta línea, también se ha producido un uso indiscriminado del concepto de neurociencia y, a veces,
+                  se han sobredimensionado los alcances que esta puede tener. </p>
+
+               <h2>Titulo h2</h2>
+               <p>La Neurociencia surgió como disciplina científica en la década de 1970, cuando convergieron distintas metodologías con el ambicioso objetivo
+                  de comprender el <a href="">funcionamiento integrado del cerebro desde lo molecular</a> funcionamiento integrado del cerebro desde lo molecular
+                    hasta lo psicológico. Un avance significativo ocurrió en la década de
+                  los 90 con la llamada revolución de las imágenes y el desarrollo de técnicas que permitieron visualizar de manera inocua la anatomía y el
+                  funcionamiento del cerebro humano en personas vivas. <img class="size-full alignleft" src="http://unsplash.it/400/345/" style="width: 300px;" alt="">
+                  En analogía con el ya conocido proyecto del genoma humano, se inició en 2013 el proyectodel cerebro humano, iniciativa que intenta descifrarel
+                  funcionamiento del sistema nervioso en todos sus niveles, en escalas de tiempo desde
+                  milisegundos a años. Más recientemente, se han producido “mini-cerebros” en el laboratorio a partir de células madre humanas, que desarrollan
+                  estructuras similares a Más recientemente, se han producido “mini-cerebros” en el laboratorio a partir de células madre humanas, que desarrollan
+                  estructuras similares a  la corteza cerebral, la retina y otros componentes del sistema nervioso. Ya se discuten los problemas éticos que se
+                  vislumbran para el futuro con estas nuevas tecnologías.  Supongamos que eventualmente, estos mini-cerebros llegaran a desarrollar conciencia,
+                  ¿podrían ellos tener derechos humanos? </p>
+
+               <h3>Titulo h3</h3>
+               <p>La Neurociencia surgió como disciplina científica en la década de 1970, cuando convergieron distintas metodologías con el ambicioso objetivo
+                  de comprender el funcionamiento integrado del cerebro desde lo molecular hasta lo psicológico. Un avance significativo ocurrió en la década de
+                  los 90 con la llamada revolución de las imágenes y el desarrollo de técnicas que permitieron visualizar de manera inocua la anatomía y el
+                  funcionamiento del cerebro humano en personas vivas.</p>
+               <h4>Cuestiones éticas h4</h4>
+               <p> En analogía con el ya conocido proyecto del genoma humano, se inició en 2013 el proyecto
+                  del cerebro humano, iniciativa que intenta descifrarel funcionamiento del sistema nervioso en todos sus niveles, en escalas de tiempo desde
+                  milisegundos a años. Más recientemente, se han producido “mini-cerebros”</p>
+                  <blockquote>
+                     “Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                     labore et dolore magna aliqua. Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut
+                     labore et dolore magna aliqua. Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut
+                     labore et dolore magna aliqua”
+                  </blockquote>
+               <h5>Cuestiones éticas h5</h5>
+               <p> en el laboratorio a partir de células madre humanas, que desarrollan
+                  estructuras similares a la corteza cerebral, la retina y otros componentes del sistema nervioso. Ya se discuten los problemas éticos que se
+                  vislumbran para el futuro con estas nuevas tecnologías.  Supongamos que eventualmente, estos mini-cerebros llegaran a desarrollar conciencia,
+                  ¿podrían ellos tener derechos humanos? </p>
+
+
+               <ol>
+                  <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</li>
+                  <li>Cras vitae pellentesque augue. Maecenas hendrerit erat at pharetra convallis.
+                     Quisque tristique tellus a tellus luctus tempus. Maecenas sit amet semper lectus. </li>
+                  <li>Praesent semper eros eu nunc ultricies, ac posuere lorem aliquam. Aenean eu dapibus sapien, id commodo nunc.
+                     Mauris in augue velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </li>
+               </ol>
+               <ul>
+                  <li>Cras vitae pellentesque augue. Maecenas hendrerit erat at pharetra convallis.
+                     Quisque tristique tellus a tellus luctus tempus. Maecenas sit amet semper lectus. </li>
+                  <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</li>
+                  <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</li>
+               </ul>
+               <h3>Cuestiones éticas h3</h3>
+               <h4>Cuestiones éticas h4</h4>
+               <h5>Cuestiones éticas h5</h5>
+            </div>
+            <div class="gr-4 gr-6@tablet gr-12@phablet reset-contenido">
+               <div class="horizon--sub">
+						<article class="box box--access color-box-main">
+							<div class="box__body">
+								<h3 class="box__title small">¿Estás buscando financiamiento para tu proyecto de Investigación Aplicada?</h3>
+								<div class="box__action group">
+									<a href="page-consurso.shtml" class="button" title="Ir a concursos">Ir a concursos</a>
+									<a href="page-ventanilla-abierta.shtml" class="button button--border" title="Ir a ventanilla abierta">Ir a ventanilla abierta</a>
+								</div>
+							</div>
+						</article>
+					</div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+</main>
+<!--#include virtual="_footer.shtml" -->

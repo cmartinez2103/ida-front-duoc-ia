@@ -1,0 +1,182 @@
+<!--#include virtual="_header.shtml" -->
+<main>
+	<!---CABECERA--->
+	<section class="horizon--cabecera">
+		<img src="https://picsum.photos/g/1280/360/" alt="" class="cover-img hide@tablet">
+		<img src="https://picsum.photos/g/640/460/" alt="" class="cover-img showb@tablet">
+		<div class="wrapper">
+			<h1 class="horizon__title">Investigación aplicada</h1>
+			<div class="horizon__bajada">
+				<p>“Investigar es ver lo que todo el mundo ha visto, y pensar lo que nadie más ha pensado.”</p>
+				<p>Albert Szent-Györgyi</p>
+			</div>
+		</div>
+	</section>
+
+	<!---HORZION--->
+	<section class="horizon--inner">
+		<div class="container">
+			<div class="row">
+				<!---CONTENT--->
+				<div class="gr-8 gr-12@tablet gr-12@small reset-contenido">
+					<h2>¿Qué es Investigación aplicada?</h2>
+					<p>La expresión "Investigación Aplicada" se popularizó durante el siglo XX para referirse al tipo de estudios científicos orientados a resolver problemas de la vida cotidiana y a controlar situaciones prácticas. Actualmente, este tipo de investigación se posiciona como un ámbito muy fértil, considerando la alianza establecida entre la educación y la industria.  </p>
+					<p>De este modo, la Investigación Aplicada se centra en la resolución de problemas en un contexto determinado, es decir, busca la aplicación o utilización de conocimientos, desde una o varias áreas especializadas, con el propósito de implementarlos de forma práctica para satisfacer necesidades concretas, proporcionando una solución a problemas del sector social o productivo. </p>
+
+					<h2 >Políticas</h2>
+					<h3>políticas regulatorias</h3>
+					<p>La expresión "Investigación Aplicada" se popularizó durante el siglo XX para referirse al tipo de estudios científicos orientados a resolver problemas de la vida cotidiana y a controlar situaciones prácticas. Actualmente, este tipo de investigación se posiciona como un ámbito muy fértil, considerando la alianza establecida entre la educación y la industria.  </p>
+					<div class="box__doc">
+						<h4><a href="" download title="Descargar documento">Políticas regulatorias.pdf</a></h4>
+						<span>23 MB</span>
+					</div>
+
+					<h3>Políticas regulatorias</h3>
+					<p>A lo largo de la historia, la educación superior se ha asociado a la etapa que permite la formación integral de los miembros de una comunidad, desde un área de especialización, estableciendo de esta forma un compromiso con la sociedad.  </p>
+					<p>Actualmente, nuestra institución Duoc UC sigue manteniendo este espíritu, siendo el motor para la formación de seres humanos que sean capaces de desarrollar al máximo sus capacidades, tanto en lo personal como en la formación académica técnico-profesional. </p>
+					<p>Por ello, en este contexto, caracterizado por promover la generación de conocimiento a partir de las distintas disciplinas de estudio, es fundamental desarrollar competencias asociadas a la Propiedad Intelectual, tanto en docentes como alumnos, dado que permiten seguir fomentando la capacidad creativa e innovadora de los miembros de la comunidad educativa. </p>
+					<p>Por lo tanto, conocer acerca del Derecho de Autor y la Propiedad Industrial, correspondientes a las dos grandes ramas de la Propiedad Intelectual, es una oportunidad y una invitación para desplegar nuestra imaginación a partir de nuestra área de especialización o interés. </p>
+
+					<iframe width="100%" height="421" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+
+					<div class="box__doc">
+						<h4><a href="" download title="Descargar documento">Políticas regulatorias.pdf</a></h4>
+						<span>23 MB</span>
+					</div>
+				</div>
+				<!---ASIDE--->
+				<aside class="gr-4 gr-12@tablet gr-12@small">
+					<div class="horizon--sub">
+						<article class="box box--access color-box-main">
+							<div class="box__body">
+								<h3 class="box__title small">¿Tienes un proyecto que quieras postular?</h3>
+								<div class="box__action group">
+									<a href="" class="button button--border" title="Ir a Postular">Postula tu proyecto</a>
+									<a href="" class="button" title="Ir a Postular">Postula tu proyecto</a>
+								</div>
+							</div>
+						</article>
+					</div>
+
+					<div class="horizon--sub">
+						<article class="box box--access color-box-pink">
+							<div class="box__body">
+								<h3 class="box__title">Sabías qué</h3>
+								<div class="box__excerpt extrabig">
+									<p>Parte importante de una buena postulación es poder especificar detallada y brevemente un problema y una posible solución.</p>
+								</div>
+								<a href="" class="link" title="Ir a">Revisa más consejos para una buena postulación</a>
+							</div>
+						</article>
+					</div>
+
+					<div class="horizon--sub module__repositorio">
+						<article class="box box--post">
+							<h3 class="title--aside">Repositorio</h3>
+							<div class="box__body">
+								<h4 class="box__subtitle text-upper">Nombre del proyecto destacado</h4>
+								<div class="box__datas simple">
+									<ul>
+										<li>Línea: Ventanilla Abierta</li>
+										<li>Escuela: Trasporte y comunicación</li>
+									</ul>
+								</div>
+								<h4 class="box__subtitle">Responsables del proyecto</h4>
+								<div class="box__persons">
+									<div class="box__person">
+										<div class="box__person--avatar">
+											<img src="http://unsplash.it/100/100/" alt="">
+										</div>
+										<div class="box__person--data">
+											<p class="bold">María Elena Sanhueza A.</p>
+										</div>
+									</div>
+									<div class="box__person">
+										<div class="box__person--avatar">
+											<img src="http://unsplash.it/100/100/" alt="">
+										</div>
+										<div class="box__person--data">
+											<p class="bold">María Elena Sanhueza A.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="box__body">
+								<h4 class="box__subtitle text-upper">Nombre del proyecto destacado</h4>
+								<div class="box__datas simple">
+									<ul>
+										<li>Línea: Ventanilla Abierta</li>
+										<li>Escuela: Trasporte y comunicación</li>
+									</ul>
+								</div>
+								<h4 class="box__subtitle">Responsables del proyecto</h4>
+								<div class="box__persons">
+									<div class="box__person">
+										<div class="box__person--avatar">
+											<img src="http://unsplash.it/100/100/" alt="">
+										</div>
+										<div class="box__person--data">
+											<p class="bold">María Elena Sanhueza A.</p>
+										</div>
+									</div>
+									<div class="box__person">
+										<div class="box__person--avatar">
+											<img src="http://unsplash.it/100/100/" alt="">
+										</div>
+										<div class="box__person--data">
+											<p class="bold">María Elena Sanhueza A.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="box__body">
+								<h4 class="box__subtitle text-upper">Nombre del proyecto destacado</h4>
+								<div class="box__datas simple">
+									<ul>
+										<li>Línea: Ventanilla Abierta</li>
+										<li>Escuela: Trasporte y comunicación</li>
+									</ul>
+								</div>
+								<h4 class="box__subtitle">Responsables del proyecto</h4>
+								<div class="box__persons">
+									<div class="box__person">
+										<div class="box__person--avatar">
+											<img src="http://unsplash.it/100/100/" alt="">
+										</div>
+										<div class="box__person--data">
+											<p class="bold">María Elena Sanhueza A.</p>
+										</div>
+									</div>
+									<div class="box__person">
+										<div class="box__person--avatar">
+											<img src="http://unsplash.it/100/100/" alt="">
+										</div>
+										<div class="box__person--data">
+											<p class="bold">María Elena Sanhueza A.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="box__action">
+								<a href="page-proyectos-destacados.shtml" class="link" title="Ir a proyectos destacados">Ver más proyectos destacados</a>
+							</div>
+						</article>
+					</div>
+
+					<div class="horizon--sub">
+						<article class="box box--access color-box-main">
+							<div class="box__body">
+								<h3 class="box__title small">¿Tienes alguna duda?</h3>
+								<div class="box__action group">
+									<a href="page-contacto.shtml" class="button button--border" title="Ir a contacto">Contáctanos</a>
+								</div>
+							</div>
+						</article>
+					</div>
+				</aside>
+			</div>
+		</div>
+	</section>
+</main>
+
+<!--#include virtual="_footer.shtml" -->

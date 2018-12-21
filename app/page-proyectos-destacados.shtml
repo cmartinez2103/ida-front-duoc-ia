@@ -1,0 +1,287 @@
+<!--#include virtual="_header.shtml" -->
+<main>
+	<!---CABECERA--->
+	<section class="horizon--cabecera">
+		<img src="https://picsum.photos/g/1280/360/" alt="" class="cover-img hide@tablet">
+		<img src="https://picsum.photos/g/640/460/" alt="" class="cover-img showb@tablet">
+		<div class="wrapper">
+			<h1 class="horizon__title">Proyectos destacados</h1>
+			<div class="horizon__bajada">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+			</div>
+		</div>
+	</section>
+
+
+	<!---HORZION--->
+	<section class="horizon--inner proyectos-desctados">
+		<div class="container">
+			<div class="row">
+				<!---DESTACADO--->
+				<div class="gr-12 gr-12@tablet gr-12@small">
+					<article class="box box--post box--horizontal">
+						<figure class="box__figure">
+							<img src="http://unsplash.it/567/320/" class="cover-img" alt="title" />
+						</figure>
+						<div class="box__body">
+							<div class="box__meta">
+								<p><a href="page-ventanilla-abierta.shtml">Ventanilla abierta</a></p>
+							</div>
+							<h3 class="box__title orange">La reforma de 1945 en la Escuela de Arquitectura de la Universidad  de Chile</h3>
+							<div class="box__excerpt">
+								<p>Plataforma para el dsarrollo de la vida del estudiante extranjero en Chile.</p>
+							</div>
+							<h4 class="box__subtitle">Responsables del proyecto:</h4>
+							<div class="box__persons">
+								<div class="box__person">
+									<div class="box__person--avatar">
+										<img src="http://unsplash.it/100/100/" alt="">
+									</div>
+									<div class="box__person--data">
+										<p class="bold">María Elena Sanhueza A.</p>
+										<p class="bold">Profersor</p>
+										<p>Sede Antonio Varas</p>
+										<p>Ecoturismo</p>
+									</div>
+								</div>
+								<div class="box__person">
+									<div class="box__person--avatar">
+										<img src="http://unsplash.it/100/100/" alt="">
+									</div>
+									<div class="box__person--data">
+										<p class="bold">María Elena Sanhueza A.</p>
+										<p class="bold">Profersor</p>
+										<p>Sede Antonio Varas</p>
+										<p>Ecoturismo</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</article>
+				</div>
+
+				<div class="gr-4 gr-12@tablet gr-12@small">
+					<article class="box box--post">
+						<figure class="box__figure">
+							<img src="http://unsplash.it/567/320/" class="cover-img" alt="title" />
+						</figure>
+						<div class="box__body">
+							<div class="box__meta">
+								<p><a href="page-ventanilla-abierta.shtml" title="Ir a Ventanilla abierta">Ventanilla abierta</a></p>
+							</div>
+							<h3 class="box__title blue">La reforma de 1945 en la Escuela de Arquitectura de la Universidad  de Chile</h3>
+							<div class="box__excerpt">
+								<p>Plataforma para el dsarrollo de la vida del estudiante extranjero en Chile.</p>
+							</div>
+							<h4 class="box__subtitle">Responsables del proyecto:</h4>
+							<div class="box__persons">
+								<div class="box__person">
+									<div class="box__person--avatar">
+										<img src="http://unsplash.it/100/100/" alt="">
+									</div>
+									<div class="box__person--data">
+										<p class="bold">María Elena Sanhueza A.</p>
+									</div>
+								</div>
+								<div class="box__person">
+									<div class="box__person--avatar">
+										<img src="http://unsplash.it/100/100/" alt="">
+									</div>
+									<div class="box__person--data">
+										<p class="bold">María Elena Sanhueza A.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</article>
+				</div>
+
+				<div class="gr-4 gr-6@tablet gr-12@small">
+					<article class="box box--post">
+						<figure class="box__figure">
+							<img src="http://unsplash.it/567/320/" class="cover-img" alt="title" />
+						</figure>
+						<div class="box__body">
+							<div class="box__meta">
+								<p><a href="page-concurso.shtml" title="Ir a Concurso">Concurso</a></p><p><a href="" title="Ir a Desafío">Desafío</a></p>
+							</div>
+							<h3 class="box__title orange">La reforma de 1945 en la Escuela de Arquitectura de la Universidad  de Chile</h3>
+							<div class="box__excerpt">
+								<p>Plataforma para el dsarrollo de la vida del estudiante extranjero en Chile.</p>
+							</div>
+							<h4 class="box__subtitle">Responsables del proyecto:</h4>
+							<div class="box__persons">
+								<div class="box__person">
+									<div class="box__person--avatar">
+										<img src="http://unsplash.it/100/100/" alt="">
+									</div>
+									<div class="box__person--data">
+										<p class="bold">María Elena Sanhueza A.</p>
+									</div>
+								</div>
+								<div class="box__person">
+									<div class="box__person--avatar">
+										<img src="http://unsplash.it/100/100/" alt="">
+									</div>
+									<div class="box__person--data">
+										<p class="bold">María Elena Sanhueza A.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</article>
+				</div>
+
+				<div class="gr-4 gr-6@tablet gr-12@small">
+					<article class="box box--post">
+						<figure class="box__figure">
+							<a href"#">
+								<img src="http://unsplash.it/567/320/" class="cover-img" alt="title" />
+							</a>
+						</figure>
+						<div class="box__body">
+							<div class="box__meta">
+								<p><a href="page-concurso.shtml" title="Ir a Concurso">Concurso</a></p><p><a href="" title="Ir a Desafío">Desafío</a></p>
+							</div>
+							<h3 class="box__title blue">La reforma de 1945 en la Escuela de Arquitectura de la Universidad  de Chile</h3>
+							<div class="box__excerpt">
+								<p>Plataforma para el dsarrollo de la vida del estudiante extranjero en Chile.</p>
+							</div>
+							<h4 class="box__subtitle">Responsables del proyecto:</h4>
+							<div class="box__persons">
+								<div class="box__person">
+									<div class="box__person--avatar">
+										<img src="http://unsplash.it/100/100/" alt="">
+									</div>
+									<div class="box__person--data">
+										<p class="bold">María Elena Sanhueza A.</p>
+									</div>
+								</div>
+								<div class="box__person">
+									<div class="box__person--avatar">
+										<img src="http://unsplash.it/100/100/" alt="">
+									</div>
+									<div class="box__person--data">
+										<p class="bold">María Elena Sanhueza A.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</article>
+				</div>
+
+				<div class="gr-4 gr-6@tablet gr-12@small">
+					<article class="box box--post">
+						<figure class="box__figure">
+							<img src="http://unsplash.it/567/320/" class="cover-img" alt="title" />
+						</figure>
+						<div class="box__body">
+							<div class="box__meta">
+								<p><a href="page-ventanilla-abierta.shtml" title="Ir a Ventanilla abierta">Ventanilla abierta</a></p>
+							</div>
+							<h3 class="box__title orange">La reforma de 1945 en la Escuela de Arquitectura de la Universidad  de Chile</h3>
+							<div class="box__excerpt">
+								<p>Plataforma para el dsarrollo de la vida del estudiante extranjero en Chile.</p>
+							</div>
+							<h4 class="box__subtitle">Responsables del proyecto:</h4>
+							<div class="box__persons">
+								<div class="box__person">
+									<div class="box__person--avatar">
+										<img src="http://unsplash.it/100/100/" alt="">
+									</div>
+									<div class="box__person--data">
+										<p class="bold">María Elena Sanhueza A.</p>
+									</div>
+								</div>
+								<div class="box__person">
+									<div class="box__person--avatar">
+										<img src="http://unsplash.it/100/100/" alt="">
+									</div>
+									<div class="box__person--data">
+										<p class="bold">María Elena Sanhueza A.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</article>
+				</div>
+
+				<div class="gr-4 gr-6@tablet gr-12@small">
+					<article class="box box--post">
+						<figure class="box__figure">
+							<img src="http://unsplash.it/567/320/" class="cover-img" alt="title" />
+						</figure>
+						<div class="box__body">
+							<div class="box__meta">
+								<p><a href="page-concurso.shtml" title="Ir a Concurso">Concurso</a></p><p><a href="" title="Ir a Desafío">Desafío</a></p>
+							</div>
+							<h3 class="box__title orange">La reforma de 1945 en la Escuela de Arquitectura de la Universidad  de Chile</h3>
+							<div class="box__excerpt">
+								<p>Plataforma para el dsarrollo de la vida del estudiante extranjero en Chile.</p>
+							</div>
+							<h4 class="box__subtitle">Responsables del proyecto:</h4>
+							<div class="box__persons">
+								<div class="box__person">
+									<div class="box__person--avatar">
+										<img src="http://unsplash.it/100/100/" alt="">
+									</div>
+									<div class="box__person--data">
+										<p class="bold">María Elena Sanhueza A.</p>
+									</div>
+								</div>
+								<div class="box__person">
+									<div class="box__person--avatar">
+										<img src="http://unsplash.it/100/100/" alt="">
+									</div>
+									<div class="box__person--data">
+										<p class="bold">María Elena Sanhueza A.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</article>
+				</div>
+
+				<div class="gr-4 gr-6@tablet gr-12@small">
+					<article class="box box--post">
+						<figure class="box__figure">
+							<img src="http://unsplash.it/567/320/" class="cover-img" alt="title" />
+						</figure>
+						<div class="box__body">
+							<div class="box__meta">
+								<p><a href="page-concurso.shtml" title="Ir a Concurso">Concurso</a></p><p><a href="" title="Ir a Desafío">Desafío</a></p>
+							</div>
+							<h3 class="box__title blue">La reforma de 1945 en la Escuela de Arquitectura de la Universidad  de Chile</h3>
+							<div class="box__excerpt">
+								<p>Plataforma para el dsarrollo de la vida del estudiante extranjero en Chile.</p>
+							</div>
+							<h4 class="box__subtitle">Responsables del proyecto:</h4>
+							<div class="box__persons">
+								<div class="box__person">
+									<div class="box__person--avatar">
+										<img src="http://unsplash.it/100/100/" alt="">
+									</div>
+									<div class="box__person--data">
+										<p class="bold">María Elena Sanhueza A.</p>
+									</div>
+								</div>
+								<div class="box__person">
+									<div class="box__person--avatar">
+										<img src="http://unsplash.it/100/100/" alt="">
+									</div>
+									<div class="box__person--data">
+										<p class="bold">María Elena Sanhueza A.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</article>
+				</div>
+
+			</div>
+			<!--#include virtual="_paginator.shtml" -->
+		</div>
+	</section>
+</main>
+
+<!--#include virtual="_footer.shtml" -->

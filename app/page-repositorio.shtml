@@ -1,0 +1,350 @@
+<!--#include virtual="_header.shtml" -->
+<main>
+	<!---CABECERA--->
+	<section class="horizon--cabecera">
+		<img src="https://picsum.photos/g/1280/360/" alt="" class="cover-img hide@tablet">
+		<img src="https://picsum.photos/g/640/460/" alt="" class="cover-img showb@tablet">
+		<div class="wrapper">
+			<h1 class="horizon__title">Repositorio</h1>
+			<div class="horizon__bajada">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+			</div>
+		</div>
+	</section>
+
+
+	<!---HORZION--->
+	<section class="horizon--inner">
+		<div class="container">
+			<div class="row">
+				<!---CONTENT--->
+				<div class="gr-8 gr-12@tablet gr-12@small reset-contenido">
+					<div class="form-parent--search">
+
+						<form method="get" action="/" >
+							<div class="form-control__search">
+								<input type="search" class="form-control__field" name="s" placeholder="Buscar proyecto o persona">
+								<button class="button icon-elem icon-elem--search" type="submit" title="Buscar"></button>
+							</div>
+						</form>
+
+
+						<h4>Busquedas frecuentes</h4>
+						<ul class="module__filtre--simple">
+							<li><a href="" title="Filtrar por Medioambiente">Medioambiente</a></li>
+							<li><a href="" title="Filtrar por Tecnologia">Tecnologia</a></li>
+							<li><a href="" title="Filtrar por Transporte">Transporte</a></li>
+						</ul>
+					</div>
+
+					<div class="horizon--sub">
+						<article class="box box--post">
+							<div class="box__body orange">
+								<h3 class="box__title orange">La reforma de 1945 en la Escuela de Arquitectura de la Universidad  de Chile</h3>
+								<div class="box__datas">
+									<ul>
+										<li>Año ejecución: <strong>2018</strong></li>
+										<li>Línea: <strong>Concurso</strong></li>
+										<li>Estado: <strong>En ejecución</strong></li>
+									</ul>
+									<ul>
+										<li>Sede: <strong>Antonio Varas</strong></li>
+										<li>Escuela: <strong>Construcción</strong></li>
+										<li>Palabra clave: <strong>En ejecución</strong></li>
+									</ul>
+								</div>
+								<div class="box__excerpt">
+									<p>La expresión "Investigación Aplicada" se popularizó durante el siglo XX para referirse al tipo de estudios científicos orientados a resolver problemas de la vida cotidiana y a controlar situaciones prácticas. Actualmente, este tipo de investigación se posiciona como un ámbito muy fértil, considerando la alianza establecida entre la educación y la industria.  </p>
+								</div>
+								<h4 class="box__subtitle">Responsables del proyecto:</h4>
+								<div class="box__persons">
+									<div class="box__person">
+										<div class="box__person--avatar">
+											<img src="http://unsplash.it/100/100/" alt="">
+										</div>
+										<div class="box__person--data">
+											<p class="bold">María Elena Sanhueza A.</p>
+											<p class="bold">Profersor</p>
+											<p>Sede Antonio Varas</p>
+											<p>Ecoturismo</p>
+										</div>
+									</div>
+									<div class="box__person">
+										<div class="box__person--avatar">
+											<img src="http://unsplash.it/100/100/" alt="">
+										</div>
+										<div class="box__person--data">
+											<p class="bold">María Elena Sanhueza A.</p>
+											<p class="bold">Profersor</p>
+											<p>Sede Antonio Varas</p>
+											<p>Ecoturismo</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</article>
+					</div>
+
+					<div class="horizon--sub">
+						<article class="box box--post">
+							<div class="box__body blue">
+								<h3 class="box__title blue">La reforma de 1945 en la Escuela de Arquitectura de la Universidad  de Chile</h3>
+								<div class="box__datas">
+									<ul>
+										<li>Año ejecución: <strong>2018</strong></li>
+										<li>Línea: <strong>Concurso</strong></li>
+										<li>Estado: <strong>En ejecución</strong></li>
+									</ul>
+									<ul>
+										<li>Sede: <strong>Antonio Varas</strong></li>
+										<li>Escuela: <strong>Construcción</strong></li>
+										<li>Palabra clave: <strong>En ejecución</strong></li>
+									</ul>
+								</div>
+								<div class="box__excerpt">
+									<p>La expresión "Investigación Aplicada" se popularizó durante el siglo XX para referirse al tipo de estudios científicos orientados a resolver problemas de la vida cotidiana y a controlar situaciones prácticas. Actualmente, este tipo de investigación se posiciona como un ámbito muy fértil, considerando la alianza establecida entre la educación y la industria.  </p>
+								</div>
+								<h4 class="box__subtitle">Responsables del proyecto:</h4>
+								<div class="box__persons">
+									<div class="box__person">
+										<div class="box__person--avatar">
+											<img src="http://unsplash.it/100/100/" alt="">
+										</div>
+										<div class="box__person--data">
+											<p class="bold">María Elena Sanhueza A.</p>
+											<p class="bold">Profersor</p>
+											<p>Sede Antonio Varas</p>
+											<p>Ecoturismo</p>
+										</div>
+									</div>
+									<div class="box__person">
+										<div class="box__person--avatar">
+											<img src="http://unsplash.it/100/100/" alt="">
+										</div>
+										<div class="box__person--data">
+											<p class="bold">María Elena Sanhueza A.</p>
+											<p class="bold">Profersor</p>
+											<p>Sede Antonio Varas</p>
+											<p>Ecoturismo</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</article>
+					</div>
+
+					<div class="horizon--sub">
+						<article class="box box--post">
+							<div class="box__body orange">
+								<h3 class="box__title orange">La reforma de 1945 en la Escuela de Arquitectura de la Universidad  de Chile</h3>
+								<div class="box__datas">
+									<ul>
+										<li>Año ejecución: <strong>2018</strong></li>
+										<li>Línea: <strong>Concurso</strong></li>
+										<li>Estado: <strong>En ejecución</strong></li>
+									</ul>
+									<ul>
+										<li>Sede: <strong>Antonio Varas</strong></li>
+										<li>Escuela: <strong>Construcción</strong></li>
+										<li>Palabra clave: <strong>En ejecución</strong></li>
+									</ul>
+								</div>
+								<div class="box__excerpt">
+									<p>La expresión "Investigación Aplicada" se popularizó durante el siglo XX para referirse al tipo de estudios científicos orientados a resolver problemas de la vida cotidiana y a controlar situaciones prácticas. Actualmente, este tipo de investigación se posiciona como un ámbito muy fértil, considerando la alianza establecida entre la educación y la industria.  </p>
+								</div>
+								<h4 class="box__subtitle">Responsables del proyecto:</h4>
+								<div class="box__persons">
+									<div class="box__person">
+										<div class="box__person--avatar">
+											<img src="http://unsplash.it/100/100/" alt="">
+										</div>
+										<div class="box__person--data">
+											<p class="bold">María Elena Sanhueza A.</p>
+											<p class="bold">Profersor</p>
+											<p>Sede Antonio Varas</p>
+											<p>Ecoturismo</p>
+										</div>
+									</div>
+									<div class="box__person">
+										<div class="box__person--avatar">
+											<img src="http://unsplash.it/100/100/" alt="">
+										</div>
+										<div class="box__person--data">
+											<p class="bold">María Elena Sanhueza A.</p>
+											<p class="bold">Profersor</p>
+											<p>Sede Antonio Varas</p>
+											<p>Ecoturismo</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</article>
+					</div>
+
+					<div class="horizon--sub">
+						<article class="box box--post">
+							<div class="box__body orange">
+								<h3 class="box__title orange">La reforma de 1945 en la Escuela de Arquitectura de la Universidad  de Chile</h3>
+								<div class="box__datas">
+									<ul>
+										<li>Año ejecución: <strong>2018</strong></li>
+										<li>Línea: <strong>Concurso</strong></li>
+										<li>Estado: <strong>En ejecución</strong></li>
+									</ul>
+									<ul>
+										<li>Sede: <strong>Antonio Varas</strong></li>
+										<li>Escuela: <strong>Construcción</strong></li>
+										<li>Palabra clave: <strong>En ejecución</strong></li>
+									</ul>
+								</div>
+								<div class="box__excerpt">
+									<p>La expresión "Investigación Aplicada" se popularizó durante el siglo XX para referirse al tipo de estudios científicos orientados a resolver problemas de la vida cotidiana y a controlar situaciones prácticas. Actualmente, este tipo de investigación se posiciona como un ámbito muy fértil, considerando la alianza establecida entre la educación y la industria.  </p>
+								</div>
+								<h4 class="box__subtitle">Responsables del proyecto:</h4>
+								<div class="box__persons">
+									<div class="box__person">
+										<div class="box__person--avatar">
+											<img src="http://unsplash.it/100/100/" alt="">
+										</div>
+										<div class="box__person--data">
+											<p class="bold">María Elena Sanhueza A.</p>
+											<p class="bold">Profersor</p>
+											<p>Sede Antonio Varas</p>
+											<p>Ecoturismo</p>
+										</div>
+									</div>
+									<div class="box__person">
+										<div class="box__person--avatar">
+											<img src="http://unsplash.it/100/100/" alt="">
+										</div>
+										<div class="box__person--data">
+											<p class="bold">María Elena Sanhueza A.</p>
+											<p class="bold">Profersor</p>
+											<p>Sede Antonio Varas</p>
+											<p>Ecoturismo</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</article>
+					</div>
+					<div class="horizon--sub">
+						<article class="box box--post">
+							<div class="box__body blue">
+								<h3 class="box__title blue">La reforma de 1945 en la Escuela de Arquitectura de la Universidad  de Chile</h3>
+								<div class="box__datas">
+									<ul>
+										<li>Año ejecución: <strong>2018</strong></li>
+										<li>Línea: <strong>Concurso</strong></li>
+										<li>Estado: <strong>En ejecución</strong></li>
+									</ul>
+									<ul>
+										<li>Sede: <strong>Antonio Varas</strong></li>
+										<li>Escuela: <strong>Construcción</strong></li>
+										<li>Palabra clave: <strong>En ejecución</strong></li>
+									</ul>
+								</div>
+								<div class="box__excerpt">
+									<p>La expresión "Investigación Aplicada" se popularizó durante el siglo XX para referirse al tipo de estudios científicos orientados a resolver problemas de la vida cotidiana y a controlar situaciones prácticas. Actualmente, este tipo de investigación se posiciona como un ámbito muy fértil, considerando la alianza establecida entre la educación y la industria.  </p>
+								</div>
+								<h4 class="box__subtitle">Responsables del proyecto:</h4>
+								<div class="box__persons">
+									<div class="box__person">
+										<div class="box__person--avatar">
+											<img src="http://unsplash.it/100/100/" alt="">
+										</div>
+										<div class="box__person--data">
+											<p class="bold">María Elena Sanhueza A.</p>
+											<p class="bold">Profersor</p>
+											<p>Sede Antonio Varas</p>
+											<p>Ecoturismo</p>
+										</div>
+									</div>
+									<div class="box__person">
+										<div class="box__person--avatar">
+											<img src="http://unsplash.it/100/100/" alt="">
+										</div>
+										<div class="box__person--data">
+											<p class="bold">María Elena Sanhueza A.</p>
+											<p class="bold">Profersor</p>
+											<p>Sede Antonio Varas</p>
+											<p>Ecoturismo</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</article>
+					</div>
+				</div>
+
+				<!---ASIDE--->
+				<aside class="gr-4 gr-12@tablet gr-12@small">
+					<form action="get">
+						<h3 class="title--aside filtre">Buscar por:</h3>
+						<ul class="module__filtre">
+							<li>Línea
+								<ul>
+									<li><a href="" title="Filtrar por Ventanilla Abierta">Ventanilla Abierta</a></li>
+									<li><a href="" title="Filtrar por Concursos">Concursos</a></li>
+								</ul>
+							</li>
+
+							<li>Estado
+								<ul>
+									<li><a href="" title="Filtrar por">Aprobado</a></li>
+									<li><a href="" title="Filtrar por">En ejecución</a></li>
+									<li><a href="" title="Filtrar por">Ejecutado</a></li>
+								</ul>
+							</li>
+
+							<li>Año de ejecución
+								<ul>
+									<li><a href="" title="Filtrar por">2016</a></li>
+									<li><a href="" title="Filtrar por">2017</a></li>
+									<li><a href="" title="Filtrar por">2018</a></li>
+									<li><a href="" title="Filtrar por">2019</a></li>
+								</ul>
+							</li>
+
+							<li>Sedes
+								<ul>
+									<li><a href="" title="Filtrar por">Campus Arauco</a></li>
+									<li><a href="" title="Filtrar por">Alameda</a></li>
+									<li><a href="" title="Filtrar por">Antonio Varas</a></li>
+									<li><a href="" title="Filtrar por">Maipú</a></li>
+									<li><a href="" title="Filtrar por">Melipilla</a></li>
+									<li><a href="" title="Filtrar por">Padre Alonso de Ovalle</a></li>
+									<li><a href="" title="Filtrar por">Plaza Norte</a></li>
+									<li><a href="" title="Filtrar por">Plaza Oeste</a></li>
+									<li><a href="" title="Filtrar por">Plaza Vespucio</a></li>
+									<li><a href="" title="Filtrar por">Puente Alto</a></li>
+									<li><a href="" title="Filtrar por">San Bernardo</a></li>
+									<li><a href="" title="Filtrar por">San Carlos de Apoquindo</a></li>
+									<li><a href="" title="Filtrar por">San Joaquín</a></li>
+									<li><a href="" title="Filtrar por">Valparaíso</a></li>
+								</ul>
+							</li>
+
+							<li>Escuelas
+								<ul>
+									<li><a href="" title="Filtrar por">Administración y Negocios</a></li>
+									<li><a href="" title="Filtrar por">Comunicación</a></li>
+									<li><a href="" title="Filtrar por">Construcción</a></li>
+									<li><a href="" title="Filtrar por">Diseño</a></li>
+									<li><a href="" title="Filtrar por">Informática y Telecomunicación</a></li>
+									<li><a href="" title="Filtrar por">Ingeniería</a></li>
+									<li><a href="" title="Filtrar por">Recursos naturales</a></li>
+									<li><a href="" title="Filtrar por">Salud</a></li>
+									<li><a href="" title="Filtrar por">Turismo</a></li>
+								</ul>
+							</li>
+						</ul>
+					</form>
+				</aside>
+			</div>
+			<!--#include virtual="_paginator.shtml" -->
+		</div>
+	</section>
+</main>
+
+<!--#include virtual="_footer.shtml" -->

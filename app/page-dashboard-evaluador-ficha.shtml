@@ -314,7 +314,7 @@
 								</div>
 								<div class="gr-9 gr-12@medium">
 									<div class="row">
-										<table class="form-control__table">
+										<table class="form-control__table table__evaluacion">
 											<thead>
 												<tr>
 													<th></th>
@@ -359,6 +359,8 @@
 											</tbody>
 										</table>
 
+										<hr>
+
 										<div class="form-control gr-4 gr-12@medium">
 											<label class="form-control__label form-control__label--select" >Relevancia y tamaño del problema <small>(33,3%)</small></label>
 											<select tabindex="7" class="form-control__field--select form-control__field"  name="consistencia-propuesta">
@@ -392,6 +394,9 @@
 												<option value="5">Muy en desacuerdo</option>
 											</select>
 										</div>
+
+										<hr>
+
 										<div class="form-control gr-12 gr-12@medium">
 											<label for="feedback" class="form-control__label">Feedback</label>
 								         <textarea name="feedback" rows="8" data-textcounter data-role="textcounter" maxlength="1500" class="form-control__field" placeholder="Feedback" data-autoresize tabindex="10"></textarea>

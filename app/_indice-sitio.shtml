@@ -7,6 +7,8 @@
          <div class="gr-2 gr-12@medium margin-bottom@medium">
             <h4>Inicio</h4>
             <a href="index.shtml">Inicio</a>
+            <a href="page-dashboard-conceptualizacion-proyectos.shtml">Etapa Conceptualización</a>
+            <a href="page-dashboard-evaluaciones-cerradas.shtml">Etapa Final</a>
          </div>
          <div class="gr-2 gr-12@medium margin-bottom@medium">
             <h4>Páginas</h4>
@@ -34,7 +36,7 @@
             <a href="page-dashboard-postulante-ficha.shtml">Postulante formulario ficha</a>
          </div>
          <div class="gr-2 gr-12@medium margin-bottom@medium">
-            <h4>Dashboard evaluador</h4>
+            <h4>Dashboard <br> evaluador</h4>
             <a href="page-dashboard-evaluador.shtml">Evaluador</a>
             <a href="page-dashboard-evaluador-proyectos.shtml">Evaluador proyectos</a>
             <a href="page-dashboard-evaluador-ficha.shtml">Evaluador ficha</a>

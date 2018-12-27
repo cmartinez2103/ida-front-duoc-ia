@@ -37,53 +37,53 @@
 									<div class="row">
 										<div class="form-control gr-6 gr-12@medium pad-top-not">
 											<label class="form-control__label" for="nombre">Nombre completo</label>
-											<input tabindex="1" class="form-control__field" type="text" id="nombre" name="nombre" placeholder="Ingresa nombre completo" required/>
+											<input tabindex="1" class="form-control__field" type="text" name="nombre" placeholder="Ingresa nombre completo" required/>
 											<small class="form-control__text">Sólo caracteres alfabéticos</small>
 										</div>
 										<div class="form-control gr-6 gr-12@medium pad-top-not">
 											<label class="form-control__label" for="apellido">Docente</label>
-											<select tabindex="2" class="form-control__field--select form-control__field " id="docente" name="docente" required>
+											<select tabindex="2" class="form-control__field--select form-control__field " name="docente" required>
 												<option value="">Seleccione un tipo de docente</option>
 	                            		<option value="1">item 1</option>
 	                          		</select>
 										</div>
 										<div class="form-control gr-6 gr-12@medium">
 											<label class="form-control__label" for="sede">Sede</label>
-											<select tabindex="3" class="form-control__field--select form-control__field" id="sede" name="sede" required>
+											<select tabindex="3" class="form-control__field--select form-control__field"  name="sede" required>
 	                            		<option value="">Seleccione una sede</option>
 	                            		<option value="1">item 1</option>
 	                          		</select>
 										</div>
 										<div class="form-control gr-6 gr-12@medium">
 											<label class="form-control__label" for="sede">Escuela</label>
-											<select tabindex="4" class="form-control__field--select form-control__field" id="escuela" name="escuela" required>
+											<select tabindex="4" class="form-control__field--select form-control__field" name="escuela" required>
 	                            		<option value="">Seleccione una escuela</option>
 	                            		<option value="1">item 1</option>
 	                          		</select>
 										</div>
 										<div class="form-control gr-6 gr-12@medium">
 											<label class="form-control__label" for="rut">Rut</label>
-											<input tabindex="5" class="form-control__field " type="text" id="rut" name="rut" placeholder="Ingresa su RUT" data-custom-validation="validRut" data-autoformat="true" required/>
+											<input tabindex="5" class="form-control__field " type="text" name="rut" placeholder="Ingresa su RUT" data-custom-validation="validRut" data-autoformat="true" required/>
 											<small class="form-control__text">Caracteres alfanuméricos. Ej: 11.111.111-k</small>
 										</div>
 										<div class="form-control gr-6 gr-12@medium">
 											<label class="form-control__label" for="email">Email</label>
-											<input tabindex="6" class="form-control__field " type="email" id="email" name="email" placeholder="Ingresa su email" required/>
+											<input tabindex="6" class="form-control__field " type="email" name="email" placeholder="Ingresa su email" required/>
 											<small class="form-control__text">Debe contener "@". Ej: mimail@mail.com</small>
 										</div>
 										<div class="form-control gr-6 gr-12@medium">
 											<label class="form-control__label" for="telefono">Teléfono</label>
-											<input tabindex="7" class="form-control__field " type="text" id="telefono" name="telefono" placeholder="Ingresa su número télefono" required data-custom-validation="onlyNumbers"/>
+											<input tabindex="7" class="form-control__field " type="text" name="telefono" placeholder="Ingresa su número télefono" required data-custom-validation="onlyNumbers"/>
 											<small class="form-control__text">Solo caracteres numericos. Ej: 9 91234567</small>
 										</div>
 										<div class="form-control gr-6 gr-12@medium pad-top-not">
 											<label class="form-control__label" for="nombre">Nombre jefatura directa</label>
-											<input tabindex="8" class="form-control__field" type="text" id="nombre-jefatura" name="nombre-jefatura" value="" placeholder="Ingresa nombre de la jefatura directa" required/>
+											<input tabindex="8" class="form-control__field" type="text"  name="nombre-jefatura" value="" placeholder="Ingresa nombre de la jefatura directa" required/>
 											<small class="form-control__text">Sólo caracteres alfabéticos</small>
 										</div>
 										<div class="form-control gr-6 gr-12@medium">
 											<label class="form-control__label" for="email">Email jefatura directa</label>
-											<input tabindex="9" class="form-control__field " type="email" id="email-jefatura" name="email-jefatura" value="" placeholder="Ingresa el email de la jefatura directa" required/>
+											<input tabindex="9" class="form-control__field " type="email" name="email-jefatura" value="" placeholder="Ingresa el email de la jefatura directa" required/>
 											<small class="form-control__text">Debe contener "@". Ej: mimail@mail.com</small>
 										</div>
 									</div>
@@ -93,136 +93,145 @@
 								<div class="gr-12">
 									<legend class="form-control__legend">2. Equipo</legend>
 								</div>
-								<div class="form-repeater" data-role="copies" data-qant="1" data-max="3">
-									<div class="row" data-id="1" data-target-name="referido">
-										<div class="gr-3">
-											<p class="form-control__label">Equipo Docente <span data-counter>1</span></p>
-											<p class="font-size-mini form-control__text">Rellena estos campos con tus datos personales de tu equipo. <strong>Puede haber un máximo de 3 docentes por proyecto</strong></p>
-											<a href="#" class="link link--remove" data-role="repeat-remover" data-remove-id="1" title="Eliminar referido"> <span><i class="fas fa-times-circle"></i> Eliminar</span></a>
-										</div>
-										<div class="gr-9 gr-12@medium">
-											<div class="row">
-												<div class="form-control gr-6 gr-12@medium pad-top-not">
-													<label class="form-control__label" for="nombre">Nombre completo</label>
-													<input tabindex="10" class="form-control__field" type="text" id="nombre" name="nombre" placeholder="Ingresa nombre completo" required/>
-													<small class="form-control__text">Sólo caracteres alfabéticos</small>
-												</div>
-												<div class="form-control gr-6 gr-12@medium pad-top-not">
-													<label class="form-control__label" for="apellido">Docente</label>
-													<select tabindex="11" class="form-control__field--select form-control__field " id="docente" name="docente" required>
-														<option value="">Seleccione un tipo de docente</option>
-														<option value="1">item 1</option>
-													</select>
-												</div>
-												<div class="form-control gr-6 gr-12@medium">
-													<label class="form-control__label" for="sede">Sede</label>
-													<select tabindex="12" class="form-control__field--select form-control__field " id="sede" name="sede" required>
-														<option value="">Seleccione una sede</option>
-														<option value="1">item 1</option>
-													</select>
-												</div>
-												<div class="form-control gr-6 gr-12@medium">
-													<label class="form-control__label" for="sede">Escuela</label>
-													<select tabindex="13" class="form-control__field--select form-control__field " id="escuela" name="escuela" required>
-														<option value="">Seleccione una escuela</option>
-														<option value="1">item 1</option>
-													</select>
-												</div>
-												<div class="form-control gr-6 gr-12@medium">
-													<label class="form-control__label" for="rut">Rut</label>
-													<input tabindex="14" class="form-control__field " type="text" id="rut" name="rut" placeholder="Ingresa su RUT" data-custom-validation="validRut" data-autoformat="true" required/>
-													<small class="form-control__text">Caracteres alfanuméricos. Ej: 11.111.111-k</small>
-												</div>
-												<div class="form-control gr-6 gr-12@medium">
-													<label class="form-control__label" for="email">Email</label>
-													<input tabindex="15" class="form-control__field " type="email" id="email" name="email" placeholder="Ingresa su email" required/>
-													<small class="form-control__text">Debe contener "@". Ej: mimail@mail.com</small>
-												</div>
-												<div class="form-control gr-6 gr-12@medium">
-													<label class="form-control__label" for="telefono">Teléfono</label>
-													<input tabindex="16" class="form-control__field " type="text" id="telefono" name="telefono"  placeholder="Ingresa su número télefono" required data-custom-validation="onlyNumbers"/>
-													<small class="form-control__text">Solo caracteres numericos. Ej: 9 91234567</small>
-												</div>
-												<div class="form-control gr-6 gr-12@medium pad-top-not">
-													<label class="form-control__label" for="nombre">Nombre jefatura directa</label>
-													<input tabindex="17" class="form-control__field" type="text" id="nombre-jefatura" name="nombre-jefatura" placeholder="Ingresa nombre de la jefatura directa" required/>
-													<small class="form-control__text">Sólo caracteres alfabéticos</small>
-												</div>
-												<div class="form-control gr-6 gr-12@medium">
-													<label class="form-control__label" for="email">Email jefatura directa</label>
-													<input tabindex="18" class="form-control__field " type="email" id="email-jefatura" name="email-jefatura" placeholder="Ingresa el email de la jefatura directa" required/>
-													<small class="form-control__text">Debe contener "@". Ej: mimail@mail.com</small>
+
+								<!--- Form repeater docente --->
+								<div class="form-repeater repeater-docente gr-12"><!-- clase .repeater-uno para ejecutar este grupo -->
+									<div data-repeater-list="docente" class="repeatable-docente"> <!-- clase .repeatable-uno para identificar los item de este repeater -->
+										<div class="row" data-repeater-item>
+											<div class="gr-3">
+												<p class="form-control__label">Equipo Docente <span data-repeater-count>1</span></p>
+												<p class="font-size-mini form-control__text">Rellena estos campos con tus datos personales de tu equipo. <strong>Puede haber un máximo de 3 docentes por proyecto</strong></p>
+												<button data-repeater-delete type="button" title="Eliminar referido" class="link link--remove"><i class="fas fa-times-circle"></i> Eliminar</button>
+											</div>
+											<div class="gr-9 gr-12@medium">
+												<div class="row">
+													<div class="form-control gr-6 gr-12@medium pad-top-not">
+														<label class="form-control__label" for="nombre">Nombre completo</label>
+														<input tabindex="10" class="form-control__field" type="text" name="nombre" placeholder="Ingresa nombre completo" required/>
+														<small class="form-control__text">Sólo caracteres alfabéticos</small>
+													</div>
+													<div class="form-control gr-6 gr-12@medium pad-top-not">
+														<label class="form-control__label" for="apellido">Docente</label>
+														<select tabindex="11" class="form-control__field--select form-control__field " name="docente" required>
+															<option value="">Seleccione un tipo de docente</option>
+															<option value="1">item 1</option>
+														</select>
+													</div>
+													<div class="form-control gr-6 gr-12@medium">
+														<label class="form-control__label" for="sede">Sede</label>
+														<select tabindex="12" class="form-control__field--select form-control__field "  name="sede" required>
+															<option value="">Seleccione una sede</option>
+															<option value="1">item 1</option>
+														</select>
+													</div>
+													<div class="form-control gr-6 gr-12@medium">
+														<label class="form-control__label" for="sede">Escuela</label>
+														<select tabindex="13" class="form-control__field--select form-control__field " name="escuela" required>
+															<option value="">Seleccione una escuela</option>
+															<option value="1">item 1</option>
+														</select>
+													</div>
+													<div class="form-control gr-6 gr-12@medium">
+														<label class="form-control__label" for="rut">Rut</label>
+														<input tabindex="14" class="form-control__field " type="text" name="rut" placeholder="Ingresa su RUT" data-custom-validation="validRut" data-autoformat="true" required/>
+														<small class="form-control__text">Caracteres alfanuméricos. Ej: 11.111.111-k</small>
+													</div>
+													<div class="form-control gr-6 gr-12@medium">
+														<label class="form-control__label" for="email">Email</label>
+														<input tabindex="15" class="form-control__field " type="email" name="email" placeholder="Ingresa su email" required/>
+														<small class="form-control__text">Debe contener "@". Ej: mimail@mail.com</small>
+													</div>
+													<div class="form-control gr-6 gr-12@medium">
+														<label class="form-control__label" for="telefono">Teléfono</label>
+														<input tabindex="16" class="form-control__field " type="text" name="telefono"  placeholder="Ingresa su número télefono" required data-custom-validation="onlyNumbers"/>
+														<small class="form-control__text">Solo caracteres numericos. Ej: 9 91234567</small>
+													</div>
+													<div class="form-control gr-6 gr-12@medium pad-top-not">
+														<label class="form-control__label" for="nombre">Nombre jefatura directa</label>
+														<input tabindex="17" class="form-control__field" type="text"  name="nombre-jefatura" placeholder="Ingresa nombre de la jefatura directa" required/>
+														<small class="form-control__text">Sólo caracteres alfabéticos</small>
+													</div>
+													<div class="form-control gr-6 gr-12@medium">
+														<label class="form-control__label" for="email">Email jefatura directa</label>
+														<input tabindex="18" class="form-control__field " type="email" name="email-jefatura" placeholder="Ingresa el email de la jefatura directa" required/>
+														<small class="form-control__text">Debe contener "@". Ej: mimail@mail.com</small>
+													</div>
 												</div>
 											</div>
-										</div>
-									</div>
-									<div data-here></div>
+										</div><!-- .repater-item-->
+									</div> <!-- .repater-list-->
 									<div class="gr-12 prefix-3 prefix-0@large no-gutter-vertical">
-										<a href="#here" id="here" class="link link--add" data-role="repeat-hitter" data-target="referido"><i class="fas fa-plus-circle"></i> Ingresar nuevo docente</a>
+										<button data-repeater-create type="button" class="link link--add"><i class="fas fa-plus-circle"></i> Ingresar nuevo docente</button>
 									</div>
 								</div>
 
-								<div class="form-repeater">
-									<div class="row">
-										<div class="gr-3">
-											<p class="form-control__label">Equipo Estudiante <span data-counter-dos>1</span></p>
-											<p class="font-size-mini form-control__text">Rellena estos campos con tus datos personales de tu equipo. <strong>Puede haber un máximo de 3 docentes por proyecto</strong></p>
-											<!--<a href="#" class="link link--remove" title="Eliminar referido"> <span><i class="fas fa-times-circle"></i> Eliminar</span></a>-->
-										</div>
-										<div class="gr-9 gr-12@medium">
-											<div class="row">
-												<div class="form-control gr-6 gr-12@medium pad-top-not">
-													<label class="form-control__label" for="nombre">Nombre completo</label>
-													<input tabindex="19" class="form-control__field" type="text" id="nombre" name="nombre" value="" placeholder="Ingresa nombre completo" required/>
-													<small class="form-control__text">Sólo caracteres alfabéticos</small>
-												</div>
-												<div class="form-control gr-6 gr-12@medium">
-													<label class="form-control__label" for="sede">Sede</label>
-													<select tabindex="20" class="form-control__field--select form-control__field " id="sede" name="sede" required>
-														<option value="">Seleccione una sede</option>
-														<option value="1">item 1</option>
-													</select>
-												</div>
-												<div class="form-control gr-6 gr-12@medium">
-													<label class="form-control__label" for="sede">Escuela</label>
-													<select tabindex="21" class="form-control__field--select form-control__field " id="escuela" name="escuela" required>
-														<option value="">Seleccione una escuela</option>
-														<option value="1">item 1</option>
-													</select>
-												</div>
-												<div class="form-control gr-6 gr-12@medium">
-													<label class="form-control__label" for="rut">Rut</label>
-													<input tabindex="22" class="form-control__field " type="text" id="rut" name="rut" placeholder="Ingresa su RUT" data-custom-validation="validRut" data-autoformat="true" required/>
-													<small class="form-control__text">Caracteres alfanuméricos. Ej: 11.111.111-k</small>
-												</div>
-												<div class="form-control gr-6 gr-12@medium">
-													<label class="form-control__label" for="email">Email</label>
-													<input tabindex="23" class="form-control__field " type="email" id="email" name="email" placeholder="Ingresa su email" required/>
-													<small class="form-control__text">Debe contener "@". Ej: mimail@mail.com</small>
-												</div>
-												<div class="form-control gr-6 gr-12@medium">
-													<label class="form-control__label" for="telefono">Teléfono</label>
-													<input tabindex="24" class="form-control__field " type="text" id="telefono" name="telefono" placeholder="Ingresa su número télefono" required data-custom-validation="onlyNumbers"/>
-													<small class="form-control__text">Solo caracteres numericos. Ej: 9 91234567</small>
-												</div>
-												<div class="form-control gr-6 gr-12@medium pad-top-not">
-													<label class="form-control__label" for="nombre">Nombre jefatura directa</label>
-													<input tabindex="25" class="form-control__field" type="text" id="nombre-jefatura" name="nombre-jefatura" placeholder="Ingresa nombre de la jefatura directa" required/>
-													<small class="form-control__text">Sólo caracteres alfabéticos</small>
-												</div>
-												<div class="form-control gr-6 gr-12@medium">
-													<label class="form-control__label" for="email">Email jefatura directa</label>
-													<input tabindex="26" class="form-control__field " type="email" id="email-jefatura" name="email-jefatura" placeholder="Ingresa el email de la jefatura directa" required/>
-													<small class="form-control__text">Debe contener "@". Ej: mimail@mail.com</small>
+								<!--- Form repeater estudiante --->
+								<div class="form-repeater repeater-estudiante gr-12"><!-- clase .repeater-uno para ejecutar este grupo -->
+									<div data-repeater-list="estudiante" class="repeatable-estudiante"> <!-- clase .repeatable-uno para identificar los item de este repeater -->
+										<div class="row" data-repeater-item>
+											<div class="gr-3">
+												<p class="form-control__label">Equipo Estudiante <span data-repeater-count>1</span></p>
+												<p class="font-size-mini form-control__text">Rellena estos campos con tus datos personales de tu equipo. <strong>Puede haber un máximo de 3 docentes por proyecto</strong></p>
+												<button data-repeater-delete type="button" title="Eliminar referido" class="link link--remove"><i class="fas fa-times-circle"></i> Eliminar</button>
+											</div>
+											<div class="gr-9 gr-12@medium">
+												<div>
+													<div class="row">
+														<div class="form-control gr-6 gr-12@medium pad-top-not">
+															<label class="form-control__label" for="nombre">Nombre completo</label>
+															<input tabindex="19" class="form-control__field" type="text" name="nombre" value="" placeholder="Ingresa nombre completo" required/>
+															<small class="form-control__text">Sólo caracteres alfabéticos</small>
+														</div>
+														<div class="form-control gr-6 gr-12@medium">
+															<label class="form-control__label" for="sede">Sede</label>
+															<select tabindex="20" class="form-control__field--select form-control__field "  name="sede" required>
+																<option value="">Seleccione una sede</option>
+																<option value="1">item 1</option>
+															</select>
+														</div>
+														<div class="form-control gr-6 gr-12@medium">
+															<label class="form-control__label" for="sede">Escuela</label>
+															<select tabindex="21" class="form-control__field--select form-control__field " name="escuela" required>
+																<option value="">Seleccione una escuela</option>
+																<option value="1">item 1</option>
+															</select>
+														</div>
+														<div class="form-control gr-6 gr-12@medium">
+															<label class="form-control__label" for="rut">Rut</label>
+															<input tabindex="22" class="form-control__field " type="text" name="rut" placeholder="Ingresa su RUT" data-custom-validation="validRut" data-autoformat="true" required/>
+															<small class="form-control__text">Caracteres alfanuméricos. Ej: 11.111.111-k</small>
+														</div>
+														<div class="form-control gr-6 gr-12@medium">
+															<label class="form-control__label" for="email">Email</label>
+															<input tabindex="23" class="form-control__field " type="email" name="email" placeholder="Ingresa su email" required/>
+															<small class="form-control__text">Debe contener "@". Ej: mimail@mail.com</small>
+														</div>
+														<div class="form-control gr-6 gr-12@medium">
+															<label class="form-control__label" for="telefono">Teléfono</label>
+															<input tabindex="24" class="form-control__field " type="text" name="telefono" placeholder="Ingresa su número télefono" required data-custom-validation="onlyNumbers"/>
+															<small class="form-control__text">Solo caracteres numericos. Ej: 9 91234567</small>
+														</div>
+														<div class="form-control gr-6 gr-12@medium pad-top-not">
+															<label class="form-control__label" for="nombre">Nombre jefatura directa</label>
+															<input tabindex="25" class="form-control__field" type="text"  name="nombre-jefatura" placeholder="Ingresa nombre de la jefatura directa" required/>
+															<small class="form-control__text">Sólo caracteres alfabéticos</small>
+														</div>
+														<div class="form-control gr-6 gr-12@medium">
+															<label class="form-control__label" for="email">Email jefatura directa</label>
+															<input tabindex="26" class="form-control__field " type="email" name="email-jefatura" placeholder="Ingresa el email de la jefatura directa" required/>
+															<small class="form-control__text">Debe contener "@". Ej: mimail@mail.com</small>
+														</div>
+													</div>
 												</div>
 											</div>
-										</div>
-									</div>
-									<div data-here-uno></div>
+										</div> <!-- .repeater-item -->
+									</div><!-- .repeater-list -->
+
+									<!---buttona add--->
 									<div class="gr-12 prefix-3 prefix-0@large no-gutter-vertical">
-										<a href="#" id="#" class="link link--add" ><i class="fas fa-plus-circle"></i> Ingresar nuevo estudiante</a>
+										<button data-repeater-create type="button" class="link link--add"><i class="fas fa-plus-circle"></i> Ingresar nuevo estudiante</button>
 									</div>
-								</div>
+								</div><!-- .repeater-uno  -->
 
 								<!--TERCER GRUPO EQUIPO---->
 								<div class="gr-3">
@@ -233,68 +242,68 @@
 									<div class="row">
 										<div class="form-control gr-12 gr-12@medium pad-top-not">
 											<label class="form-control__label" for="nombre">Nombre del proyecto</label>
-											<input tabindex="27" class="form-control__field" type="text" id="nombre" name="nombre" value="" placeholder="Ingresa el nombre del proyecto" required/>
+											<input tabindex="27" class="form-control__field" type="text" name="nombre" value="" placeholder="Ingresa el nombre del proyecto" required/>
 											<small class="form-control__text">Sólo caracteres alfabéticos</small>
 										</div>
 										<div class="form-control gr-6 gr-12@medium">
 											<label class="form-control__label" for="sede">Sede</label>
-											<select tabindex="28" class="form-control__field--select form-control__field " id="sede" name="sede" required>
+											<select tabindex="28" class="form-control__field--select form-control__field "  name="sede" required>
 	                            		<option value="">Seleccione una sede</option>
 	                            		<option value="">item 1</option>
 	                          		</select>
 										</div>
 										<div class="form-control gr-6 gr-12@medium">
 											<label class="form-control__label" for="sede">Escuela</label>
-											<select tabindex="29" class="form-control__field--select form-control__field " id="escuela" name="escuela" required>
+											<select tabindex="29" class="form-control__field--select form-control__field " name="escuela" required>
 	                            		<option value="">Seleccione una escuela</option>
 	                            		<option value="">item 1</option>
 	                          		</select>
 										</div>
 										<div class="form-control gr-12 gr-12@medium">
 											<label for="contacto-mensaje" class="form-control__label">Problema y/u oportunidad detectada</label>
-								         <textarea tabindex="30" name="contacto-mensaje" id="contacto-mensaje" rows="8" required data-textcounter data-role="textcounter" maxlength="1500" class="form-control__field" placeholder="Indique de la forma más clara posible el problema y/u oportunidad detectada (qué y su dimensión)" data-autoresize></textarea>
+								         <textarea tabindex="30" name="contacto-mensaje" rows="8" required data-textcounter data-role="textcounter" maxlength="1500" class="form-control__field" placeholder="Indique de la forma más clara posible el problema y/u oportunidad detectada (qué y su dimensión)" data-autoresize></textarea>
 								         <small class="form-control__text">
 								            Máximo <strong data-role="countdown">1.500</strong> carácteres
 								         </small>
 										</div>
 										<div class="form-control gr-12 gr-12@medium">
 											<label for="contacto-mensaje" class="form-control__label">Revisión del Estado del Arte</label>
-								         <textarea tabindex="31" name="contacto-mensaje" id="contacto-mensaje" rows="8" required data-textcounter data-role="textcounter" maxlength="1500" class="form-control__field" placeholder="Realizar una revisión bibliográfica que fundamente y justifique el propósito de la investigación, mostrar el vacío de conocimiento existente." data-autoresize></textarea>
+								         <textarea tabindex="31" name="contacto-mensaje" rows="8" required data-textcounter data-role="textcounter" maxlength="1500" class="form-control__field" placeholder="Realizar una revisión bibliográfica que fundamente y justifique el propósito de la investigación, mostrar el vacío de conocimiento existente." data-autoresize></textarea>
 								         <small class="form-control__text">
 								            Máximo <strong data-role="countdown">1.500</strong> carácteres
 								         </small>
 										</div>
 										<div class="form-control gr-12 gr-12@medium">
 											<label for="contacto-mensaje" class="form-control__label">Pregunta de Investigación-Hipótesis o supuestos de Investigación</label>
-								         <textarea tabindex="32" name="contacto-mensaje" id="contacto-mensaje" rows="8" required data-textcounter data-role="textcounter" maxlength="1500" class="form-control__field" placeholder="Formular una pregunta de investigación y plantear una hipótesis." data-autoresize></textarea>
+								         <textarea tabindex="32" name="contacto-mensaje" rows="8" required data-textcounter data-role="textcounter" maxlength="1500" class="form-control__field" placeholder="Formular una pregunta de investigación y plantear una hipótesis." data-autoresize></textarea>
 								         <small class="form-control__text">
 								            Máximo <strong data-role="countdown">1.500</strong> carácteres
 								         </small>
 										</div>
 										<div class="form-control gr-12 gr-12@medium">
 											<label for="contacto-mensaje" class="form-control__label">Propuesta de solución</label>
-								         <textarea tabindex="33" name="contacto-mensaje" id="contacto-mensaje" rows="8" required data-textcounter data-role="textcounter" maxlength="1500" class="form-control__field" placeholder="Indique como pretende abordar el problema y/u oportunidad, justifique porqué el problema debe ser abordado de la manera planteada, e indicar factores diferenciadores con respecto a lo existente." data-autoresize></textarea>
+								         <textarea tabindex="33" name="contacto-mensaje" rows="8" required data-textcounter data-role="textcounter" maxlength="1500" class="form-control__field" placeholder="Indique como pretende abordar el problema y/u oportunidad, justifique porqué el problema debe ser abordado de la manera planteada, e indicar factores diferenciadores con respecto a lo existente." data-autoresize></textarea>
 								         <small class="form-control__text">
 								            Máximo <strong data-role="countdown">1.500</strong> carácteres
 								         </small>
 										</div>
 										<div class="form-control gr-12 gr-12@medium">
 											<label for="contacto-mensaje" class="form-control__label">Resultado y beneficios esperados</label>
-								         <textarea tabindex="34" name="contacto-mensaje" id="contacto-mensaje" rows="8" required data-textcounter data-role="textcounter" maxlength="1500" class="form-control__field" placeholder="" data-autoresize></textarea>
+								         <textarea tabindex="34" name="contacto-mensaje" rows="8" required data-textcounter data-role="textcounter" maxlength="1500" class="form-control__field" placeholder="" data-autoresize></textarea>
 								         <small class="form-control__text">
 								            Máximo <strong data-role="countdown">1.500</strong> carácteres
 								         </small>
 										</div>
 										<div class="form-control gr-12 gr-12@medium">
 											<label for="contacto-mensaje" class="form-control__label">Equipo Estudiantes</label>
-								         <textarea tabindex="35" name="contacto-mensaje" id="contacto-mensaje" rows="8" required data-textcounter data-role="textcounter" maxlength="1500" class="form-control__field" placeholder="Indique experiencia en el tema a investigar, formación y rol en el proyecto. Adjuntar Curriculum Vitae." data-autoresize></textarea>
+								         <textarea tabindex="35" name="contacto-mensaje" rows="8" required data-textcounter data-role="textcounter" maxlength="1500" class="form-control__field" placeholder="Indique experiencia en el tema a investigar, formación y rol en el proyecto. Adjuntar Curriculum Vitae." data-autoresize></textarea>
 								         <small class="form-control__text">
 								            Máximo <strong data-role="countdown">1.500</strong> carácteres
 								         </small>
 										</div>
 										<div class="form-control gr-12 gr-12@medium">
 											<label for="contacto-mensaje" class="form-control__label">Equipo Docente</label>
-								         <textarea tabindex="36" name="contacto-mensaje" id="contacto-mensaje" rows="8" required data-textcounter data-role="textcounter" maxlength="1500" class="form-control__field" placeholder="Indique experiencia en el tema a investigar, formación y rol en el proyecto. Adjuntar Curriculum Vitae." data-autoresize></textarea>
+								         <textarea tabindex="36" name="contacto-mensaje" rows="8" required data-textcounter data-role="textcounter" maxlength="1500" class="form-control__field" placeholder="Indique experiencia en el tema a investigar, formación y rol en el proyecto. Adjuntar Curriculum Vitae." data-autoresize></textarea>
 								         <small class="form-control__text">
 								            Máximo <strong data-role="countdown">1.500</strong> carácteres
 								         </small>

@@ -118,7 +118,7 @@
 						</div>
 					</div>
 
-					<h2>Material de apoyo</h2>
+					<h2 id="material">Material de apoyo</h2>
 					<ul>
 						<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris commodo magna id vulputate porta. Vivamus dapibus, ligula a gravida tempor, nunc lacus tempus lectus, id maximus erat lorem non leo.</li>
 						<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris commodo magna id vulputate porta. Vivamus dapibus, ligula a gravida tempor, nunc lacus tempus lectus, id maximus erat lorem non leo. Quisque vel massa non urna maximus gravida. In odio nisi, porta vel rhoncus eget, condimentum eget ex.</li>

@@ -10,8 +10,9 @@
 			</div>
 			<!-- estado de los botones: .active(blanco) y .disable (gris). por defecto verde-->
 			<div class="button__group">
-				<a href="" class="button active">1. Registro y postulación</a>
-				<a href="" class="button">2. Conceptualización</a>
+				<a href="" class="button">1. Registro y postulación</a>
+				<a href="" class="button active">2. Conceptualización</a>
+				<a href="" class="button disable">3. Etapa Final</a>
 			</div>
 		</div>
    </section>
@@ -24,8 +25,8 @@
 			<h2 class="horizon__title">Ventanilla abierta</h2>
 			<div class="horizon--filter">
 				<div class="buttons">
-					<a href="#" class="button__simple">Proyectos por evaluar <span>(20)</span></a>
-					<a href="#" class="button__simple active">Proyectos evaluados <span>(5)</span></a>
+					<a href="#" class="button__simple">Proyectos por evaluar <span>(1)</span></a>
+					<a href="#" class="button__simple active">Proyectos evaluados <span>(4)</span></a>
 					<li class="button__simple button__simple--select">
 						<a href="javascript:void(0)" class="dropdown-toggle">Filtrar por escuela</a>
 						<ul class="dropdown-menu">
@@ -84,25 +85,25 @@
 				<tbody>
 					<tr>
 						<td class="bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</td>
-						<td>Registro y postulación</td>
+						<td>Conceptualización</td>
 						<td>5.5</td>
 						<td class="bold"><a href="page-dashboard-evaluador-ficha.shtml">Ver proyecto</a></td>
 					</tr>
 					<tr>
 						<td class="bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</td>
-						<td>Registro y postulación</td>
+						<td>Conceptualización</td>
 						<td>6.1</td>
 						<td class="bold"><a href="page-dashboard-evaluador-ficha.shtml">Ver proyecto</a></td>
 					</tr>
 					<tr>
 						<td class="bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</td>
-						<td>Registro y postulación</td>
+						<td>Conceptualización</td>
 						<td>-</td>
 						<td class="bold"><a href="page-dashboard-evaluador-ficha.shtml">Evaluar</a></td>
 					</tr>
 					<tr>
 						<td class="bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</td>
-						<td>Registro y postulación</td>
+						<td>Conceptualización</td>
 						<td>4.0</td>
 						<td class="bold"><a href="page-dashboard-evaluador-ficha.shtml">Ver proyecto</a></td>
 					</tr>

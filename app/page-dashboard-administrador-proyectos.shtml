@@ -27,7 +27,7 @@
 			<div class="horizon--filter">
 				<div class="buttons">
 					<a href="#" class="button__simple">Proyectos por evaluar <span>(20)</span></a>
-					<a href="#" class="button__simple active">Proyectos por evaluar <span>(5)</span></a>
+					<a href="#" class="button__simple active">Proyectos evaluados <span>(5)</span></a>
 					<li class="button__simple button__simple--select">
 						<a href="javascript:void(0)" class="dropdown-toggle">Filtrar por escuela</a>
 						<ul class="dropdown-menu">
@@ -138,65 +138,134 @@
 					<tbody>
 
 						<!--- filas proyectos--->
-						<tr>
-							<td width="25px"><input type="checkbox" name="proyecto-2" value="2"></td>
+						<tr data-proyecto>
+							<td width="25px"><input type="checkbox" name="proyecto-02" value="2"></td>
 							<td class="bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</td>
 							<td>Registro y postulación</td>
 							<td>5.5</td>
 							<td>Asignado</td>
 						</tr>
 						<!--- evaluacion--->
-						<tr class="table__resultados--fila">
+						<tr class="table__resultados--fila" data-evaluacion>
 							<td width="25px"></div>
 							<td colspan="4" class="result">
 								<ul>
 									<li>Notas por evaluador:</li>
 									<li>Fernando Ramirez: <strong>5.5</strong></li>
-									<li>Fernando Ramirez: <strong>5.5</strong></li>
+									<li>Roberto Soto: <strong>5.5</strong></li>
 								</ul>
 							</td>
 						</tr>
 
 
 						<!--- filas proyectos--->
-						<tr>
-							<td width="25px"><input type="checkbox" name="proyecto-3" value="3"></td>
+						<tr data-proyecto>
+							<td width="25px"><input type="checkbox" name="proyecto-02" value="02"></td>
 							<td class="bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</td>
 							<td>Registro y postulación</td>
 							<td>6.1</td>
 							<td>Asignado</td>
 						</tr>
 						<!--- evaluacion--->
-						<tr class="table__resultados--fila">
+						<tr class="table__resultados--fila" data-evaluacion>
 							<td width="25px"></div>
 							<td colspan="4" class="result">
 								<ul>
 									<li>Notas por evaluador:</li>
 									<li>Fernando Ramirez: <strong>5.5</strong></li>
-									<li>Fernando Ramirez: <strong>5.5</strong></li>
-									<li>Fernando Ramirez: <strong>5.5</strong></li>
-									<li>Fernando Ramirez: <strong>5.5</strong></li>
+									<li>Camila Lazo: <strong>5.5</strong></li>
+									<li>Roberto Soto: <strong>5.5</strong></li>
+									<li>Marcelo Jordan: <strong>5.5</strong></li>
 									<li>Fernando Ramirez: <strong>5.5</strong></li>
 								</ul>
 							</td>
 						</tr>
 
 						<!--- filas proyectos--->
-						<tr>
-							<td width="25px"><input type="checkbox" name="proyecto-4" value="4"></td>
+						<tr data-proyecto>
+							<td width="25px"><input type="checkbox" name="proyecto-03" value="03"></td>
 							<td class="bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</td>
 							<td>Registro y postulación</td>
 							<td>-</td>
 							<td>Asignado</td>
 						</tr>
+						<!--- evaluacion--->
+						<tr data-evaluacion class="table__resultados--fila">
+							<td width="25px"></div>
+							<td colspan="4" class="result">
+								<ul>
+									<li>Notas por evaluador:</li>
+									<li>Marcelo Jordan: <strong>--</strong></li>
+									<li>Roberto Soto: <strong>--</strong></li>
+									<li>Camila Lazo: <strong>--</strong></li>
+								</ul>
+							</td>
+						</tr>
+
+
 						<!--- filas proyectos--->
-						<tr>
-							<td width="25px"><input type="checkbox" name="proyecto-5" value="5"></td>
+						<tr data-proyecto>
+							<td width="25px"><input type="checkbox" name="proyecto-04" value="04"></td>
 							<td class="bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</td>
 							<td>Registro y postulación</td>
-							<td>4.0</td>
+							<td>-</td>
 							<td>Asignado</td>
 						</tr>
+						<!--- evaluacion--->
+						<tr data-evaluacion class="table__resultados--fila">
+							<td width="25px"></div>
+							<td colspan="4" class="result">
+								<ul>
+									<li>Notas por evaluador:</li>
+									<li>No se han asignados evaluadores.</li>
+								</ul>
+							</td>
+						</tr>
+
+						<!--- filas proyectos--->
+						<tr data-proyecto>
+							<td width="25px"><input type="checkbox" name="proyecto-04" value="04"></td>
+							<td class="bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</td>
+							<td>Registro y postulación</td>
+							<td>-</td>
+							<td>Asignado</td>
+						</tr>
+						<!--- evaluacion--->
+						<tr data-evaluacion class="table__resultados--fila">
+							<td width="25px"></div>
+							<td colspan="4" class="result">
+								<ul>
+									<li>Notas por evaluador:</li>
+									<li>Fernando Ramirez: <strong>--</strong></li>
+									<li>Marcelo Jordan: <strong>--</strong></li>
+									<li>Roberto Soto: <strong>--</strong></li>
+									<li>Camila Lazo: <strong>--</strong></li>
+									<li>Fernando Ramirez: <strong>--</strong></li>
+								</ul>
+							</td>
+						</tr>
+
+						<!--- filas proyectos--->
+						<tr data-proyecto>
+							<td width="25px"><input type="checkbox" name="proyecto-04" value="04"></td>
+							<td class="bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</td>
+							<td>Registro y postulación</td>
+							<td>5.1</td>
+							<td>Asignado</td>
+						</tr>
+						<!--- evaluacion--->
+						<tr data-evaluacion class="table__resultados--fila">
+							<td width="25px"></div>
+							<td colspan="4" class="result">
+								<ul>
+									<li>Notas por evaluador:</li>
+									<li>Fernando Ramirez: <strong>6.1</strong></li>
+									<li>Roberto Soto: <strong>3.0</strong></li>
+									<li>Cristian Jordan: <strong>5.5</strong></li>
+								</ul>
+							</td>
+						</tr>
+
 					</tbody>
 				</table>
 			</form>

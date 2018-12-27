@@ -13,7 +13,9 @@ main{
 		margin-top: 4.5rem;
 	}
 }
-
+hr{
+	width: 100%;
+}
 strong, b{
 	font-weight: $weight_bold;
 }
@@ -110,6 +112,8 @@ h2,h3{
 						background-color: $color_secondary_regular;
 						padding: .5rem 1.2rem;
 						height: 100%;
+						font-family: $font_title;
+						font-size: $size_12;
 						&:hover{
 							background-color: $color_secondary_dark;
 						}
@@ -501,7 +505,7 @@ h2,h3{
 		}
 	}
 
-	//movile nav
+	//mobile nav
 
 	&__body{
 		@include media (tablet-down){
@@ -658,7 +662,9 @@ h2,h3{
 	}
 }
 
-///RESET DE ESTILOS PARA ELEMENTOS GENERICOS USADOS EN PAGES
+///////////////////////////////////////////////////////////////
+///RESET DE ESTILOS PARA ELEMENTOS GENERICOS USADOS EN PAGES///
+//////////////////////////////////////////////////////////////
 .reset-contenido{
 	h1, h2, h3, h4, h5{
 		font-family: $font_title!important;
@@ -716,10 +722,11 @@ h2,h3{
 		}
 	}
 }
+
+
 /////////////////////////////////////
 /////////// HORIZONTES /////////////
 ////////////////////////////////////
-
 .horizon{
 	margin: 0;
 	&__intro{
@@ -800,7 +807,8 @@ h2,h3{
 	}
 	&--cifras{
 		margin: 4rem 0;
-		padding: 5.5rem 1rem;
+		padding: 6.5rem 4rem;
+		padding-bottom: 10rem;
 		background: url($images_path + '/photos/fondo-colores.png');
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -808,9 +816,44 @@ h2,h3{
 		text-align: center;
 		color: white;
 		position: relative;
+		@include media (large-down){
+			padding: 6.5rem 1.5rem;
+			padding-bottom: 10rem;
+		}
+		@include media (tablet-down){
+			padding: 5.5rem 1rem;
+		}
 		.horizon__title{
 			color: white;
 			margin-bottom: 3rem;
+		}
+		&:before{
+			content: "";
+			width: 100%;
+			height: 90px;
+			background: url($images_path + '/iconos/border-superior.svg');
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center top;
+			display: block;
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			right: 0px;
+		}
+		&:after{
+			content: "";
+			width: 100%;
+			height: 90px;
+			background: url($images_path + '/iconos/border-inferior.svg');
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center bottom;
+			display: block;
+			position: absolute;
+			bottom: 0px;
+			left: 0px;
+			right: 0px;
 		}
 	}
 	&--cabecera{
@@ -878,6 +921,15 @@ h2,h3{
 				cursor: default;
 			}
 		}
+		[data-eq-target="[data-eq]"]{
+			.box--access{
+				padding: 3rem 2rem;
+			}
+		}
+
+		.box__action{
+			margin-top: 1.5rem;
+		}
 	}
 	&--innerdash{
 		margin-top: 3rem;
@@ -913,10 +965,10 @@ h2,h3{
 	}
 }
 
+
 /////////////////////////////////////
 /////////////// BOX ////////////////
 ////////////////////////////////////
-
 .box{
 	position: relative;
 	&:not(.box--horizontal) {
@@ -1253,18 +1305,22 @@ h2,h3{
 	padding-top: 1rem;
 	display: block;
 	&--add{
+		@include reset-appearance;
 		color: $color_secondary_regular;
 		text-transform: uppercase;
 		font-family: $font_title;
 	}
 	&--remove{
+		@include reset-appearance;
 		padding-top: 1rem;
+		font-family: $font_title;
+		text-transform: uppercase;
 	}
 }
 
-/////////////////////////////////////
-/////////// BOX ACCESS /////////////
-////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////
+/////////// BOX ACCESS //// revisar box.shtml para ver la variedad de boxes //////////
+//////////////////////////////////////////////////////////////////////////////////////
 @each $color_key,
 $color_val in $colors_categorias {
    .color-box-#{$color_key} {
@@ -1401,7 +1457,7 @@ $color_val in $colors_categorias {
 		@include media (tablet-down){
 			display: block;
 			.cifra{
-				margin-top: 2rem;
+				margin-top: 3rem;
 				&:first-child{
 					margin-top: 0;
 				}
@@ -1553,10 +1609,10 @@ $color_val in $colors_categorias {
 	}
 }
 
+
 /////////////////////////////////////
 ////////////// BUTTON ///////////////
 ////////////////////////////////////
-
 .button{
 	border-radius: 0;
 	font-size: $size_16;
@@ -1674,65 +1730,11 @@ $color_val in $colors_categorias {
 		}
 	}
 }
-// .button-dropdown {
-//     position: relative;
-// 	 list-style-type: none;
-// 	 li{
-// 		 list-style-type: none;
-// 		 a {
-// 			 font-size: $size_14;
-// 	 		 display: block;
-// 	 		 color: $color_dark;
-// 	 		 background-color: $color_white;
-// 	 		 padding: .5rem;
-// 	 		 text-decoration: none;
-// 	 		 &:hover{
-// 	 			  border-color: $color_grey_regular;
-// 	 		 }
-// 		 }
-// 	 }
-// 	.dropdown-toggle{
-// 		border-radius: 0;
-// 		color: $color_grey_light;
-// 		font-weight: 300;
-// 		font-size: .875rem;
-// 		border: 1px solid $color_main_regular;
-// 		background: $color_white url($images_path + '/icons-color/ic_arrow_drop_down.svg') calc(100% - .5em) 50% no-repeat;
-// 		background-size: 1.5rem;
-// 		padding: .5em;
-// 		display: block;
-// 		&:hover, &.active{
-// 			border:1px solid $color_grey_regular;
-// 		}
-// 	 }
-// 	 .dropdown-menu {
-// 		display: none;
-// 		position: absolute;
-// 		left: 0;
-// 		padding: 0;
-// 		margin: 0;
-// 		margin-top: 3px;
-// 		right: 0;
-// 		background-color: $color_white;
-// 		text-align: left;
-// 		border:1px solid $color_grey_regular;
-// 		&.active{
-// 			display: block;
-// 		}
-// 		li{
-// 			margin: 0;
-// 			a{
-// 				&:hover{
-// 					background-color: $color_light;
-// 				}
-// 			}
-// 		}
-// 	 }
-// }
+
+
 /////////////////////////////////////
 ///////////// PAGINATOR /////////////
 ////////////////////////////////////
-
 .paginator{
 	@include reset-list;
 	margin: 2rem 0;
@@ -1772,6 +1774,7 @@ $color_val in $colors_categorias {
 		&.next{a:after{@include fa-icon-solid($fa-var-chevron-right); color: $color_dark;}}
 	}
 }
+
 
 /////////////////////////////////////
 ////////////// FOOTER //////////////
@@ -1854,7 +1857,9 @@ $color_val in $colors_categorias {
 	}
 }
 
-
+/////////////////////////////////////
+////////////// TABLE ///////////////
+////////////////////////////////////
 table{
 	color: $color_fuente;
 	font-family: $font_title;
@@ -1890,11 +1895,10 @@ table{
 }
 .table{
 	&__resultados{
-		tr:nth-child(2n) {
-			background: transparent;
+		[data-proyecto]:nth-child(2n) {
+			background: #f5f6f9!important;
 		}
 		&--fila{
-			background: #f5f6f9!important;
 			.result{
 				padding: .3rem 1rem;
 				ul{
@@ -1920,36 +1924,17 @@ table{
 			}
 		}
 	}
+	&__evaluacion{
+		border: none;
+		thead{
+			th{
+				background-color: transparent;
+				color: $color_dark;
+				font-weight: $weight_medium;
+			}
+		}
+	}
 }
-// .table{
-// 	&__caption{
-// 		font-family: $font_sans;
-// 		font-weight: $weight_regular!important;
-// 		font-size: $size_10!important;
-// 		text-transform: uppercase;
-// 		text-align: right;
-// 		display: block;
-// 		@include media (tablet-down){
-// 			text-align: left;
-// 		}
-// 	}
-// 	&__content{
-// 		@include media (tablet-down){
-// 			overflow-x: auto!important;
-// 		}
-// 	}
-// 	&__mensaje{
-// 		margin-bottom: 1.5rem;
-// 		img{
-// 			padding-right: .5rem;
-// 			width: 35px;
-// 		}
-// 		span{
-// 			font-size: $size_10;
-// 		}
-// 		color: $color_main_regular;
-// 	}
-// }
 
 
 ////////////////////////////
@@ -2268,10 +2253,10 @@ aside{
 	}
 }
 
+
 ///////////////////////
 ///// Breadcrumbs /////
 ///////////////////////
-
 .breadcrumbs{
 	@include reset-list;
 		display: inline-block;
@@ -2379,7 +2364,7 @@ aside{
 
 
 ///////////////////////
-///// FORMULARIO /////
+///// FORMULARIO //////
 ///////////////////////
 .form{
 	&-simple{
@@ -2390,9 +2375,6 @@ aside{
 	}
 	&-repeater{
 		margin-bottom: 1.5rem;
-		.link{
-		padding-top: 0;
-		}
 	}
 	&-control{
 		font-family: $font_sans;
@@ -2429,7 +2411,8 @@ aside{
 			&.valid-input{
 				background: rgba($color_grey, .85) url($images_path + '/icons-color/ic_exito.svg') calc(100% - .25rem) 50% no-repeat;
 				transition: 0s;
-				color: $color_success_regular;
+				color: $color_secondary_regular;
+				border-color: $color_secondary_regular;
 				.form-control__label{
 					color: $color_dark;
 				}
@@ -2472,6 +2455,9 @@ aside{
 		}
 		&.valid-control{
 			color: $color_dark;
+			.form-control__text{
+				color: $color_secondary_regular;
+			}
 		}
 		&__action{
 			position: relative;
@@ -2528,8 +2514,9 @@ aside{
 		}
 	}
 
-
-	///RESPONSE
+	////////////////////
+	///// RESPONSE /////
+	///////////////////
 	&-response{
 		&__figure{
 			text-align: center;
@@ -2606,6 +2593,9 @@ aside{
 	}
 }
 
+//////////////////////
+///// TOOLTIPS //////
+/////////////////////
 [data-tooltips]{
 	position: relative;
 	margin-left: 5px;
@@ -2638,7 +2628,9 @@ aside{
 	}
 }
 
-
+//////////////////////
+/////// MODAL ////////
+/////////////////////
 .modal{
 	    z-index: 99;
 	&__button{
@@ -2675,8 +2667,10 @@ aside{
 }
 
 
+//////////////////////
+///// DASHBOARD //////
+/////////////////////
 
-////DASHBOARD
 .bg{
 	&-color-postulante{
 		background-image: linear-gradient(112deg, #00A896 0%, #007CB0 100%);
@@ -2750,5 +2744,25 @@ aside{
 	}
 	i{
 		margin-right: .5rem;
+	}
+}
+
+[data-evaluacion]{
+	opacity: 0;
+	@include transitional;
+	background-color: transparent!important;
+}
+// [data-proyecto]:nth-child(5n) {
+//
+// }
+[data-proyecto] {
+	cursor: pointer;
+	&:hover{
+		background: #f5f6f9!important;
+		+ [data-evaluacion]{
+			opacity: 1;
+			background: #f5f6f9!important;
+			@include transitional;
+		}
 	}
 }

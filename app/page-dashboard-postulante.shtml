@@ -67,7 +67,7 @@
 				</thead>
 				<tbody>
 					<tr>
-						<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</td>
+						<td class="bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</td>
 						<td>Ventanilla Abierta</td>
 						<td>33,3%</td>
 						<td>Guardado</td>
@@ -76,7 +76,7 @@
 						<td class="bold"><a href="page-dashboard-postulante-ficha.shtml" title="Ver Proyecto">Ver</a></td>
 					</tr>
 					<tr>
-						<td>Lorem ipsum dolor sit amet, adipisicing elit...</td>
+						<td class="bold">Lorem ipsum dolor sit amet, adipisicing elit...</td>
 						<td>Concurso</td>
 						<td>33,3%</td>
 						<td>Postulado</td>
@@ -85,7 +85,7 @@
 						<td class="bold"><a href="page-dashboard-postulante-ficha.shtml" title="Ver Proyecto">Ver</a></td>
 					</tr>
 					<tr>
-						<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</td>
+						<td class="bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</td>
 						<td>Ventanilla Abierta</td>
 						<td>33,3%</td>
 						<td>Guardado</td>
@@ -94,7 +94,7 @@
 						<td class="bold"><a href="page-dashboard-postulante-ficha.shtml" title="Ver Proyecto">Ver</a></td>
 					</tr>
 					<tr>
-						<td>Lorem ipsum dolor sit amet, consectetur...</td>
+						<td class="bold">Lorem ipsum dolor sit amet, consectetur...</td>
 						<td>Ventanilla Abierta</td>
 						<td>33,3%</td>
 						<td>Evaluado</td>

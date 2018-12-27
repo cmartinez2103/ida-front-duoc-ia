@@ -62,7 +62,7 @@
 			<div class="horizon__intro">
 				<h2 class="horizon__title horizon__title--center">Líneas de postulación</h2>
 			</div>
-			<div class="row" data-equalize="target" data-mq="tablet-down" data-eq-target="[data-eq]">
+			<div class="row" data-equalize="target" data-mq="small-down" data-eq-target="[data-eq]">
 				<div class="gr-6 gr-6@tablet gr-12@small">
 					<article class="box box--access color-box-orange" data-eq>
 						<div class="box__body">
@@ -75,7 +75,7 @@
 									<li>¿Conoces las leyes de propiedad intelectual?</li>
 								</ul>
 								<div class="box__action">
-									<a href="" class="button" title="Ir a Postular">Postula tu proyecto</a>
+									<a href="page-ventanilla-abierta.shtml#material" class="button" title="Ir a Postular">Postula tu proyecto</a>
 								</div>
 							</div>
 						</div>
@@ -225,8 +225,8 @@
 	</section>
 
 	<!---HORZION--->
-	<section class="horizon--cifras">
-		<div class="container">
+	<section class="container--slider">
+		<div class="horizon--cifras">
 			<h2 class="horizon__title">Nuestras cifras</h2>
 			<div class="module__cifras">
 				<div class="cifra">
